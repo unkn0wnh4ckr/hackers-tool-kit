@@ -75,7 +75,7 @@ def mainbanner():
 				    dMc               :OO;          
 				    0M.                 .:o.       
 				    ;Wd                            
-				     ;XO, 			\033[93mCreated By @unkn0wn_bali On Insagram\033[34m                         
+				     ;XO, 			\033[93mCreated By @unkn0wn_bali On Instagram\033[34m                         
 				       ,d0Odlc;,..                 
 				           ..',;:cdOOd::,.        
 				                    .:d;.':;.     
