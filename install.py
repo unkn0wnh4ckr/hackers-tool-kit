@@ -18,11 +18,6 @@ def install():
 	os.system("apt install nc")
 	os.system("apt install neofetch")
 	os.system("apt install cupp")
-"""	os.system("cd /root/tufhub && mkdir wordlists")
-	os.system("cd && git clone https://github.com/thelinuxchoice/shellphish")
-	os.system("cd && git clone https://github.com/thelinuxchoice/userrecon")
-	os.system("cd && git clone https://github.com/thelinuxchoice/instaspam")
-	os.system("cd && git clone https://github.com/thelinuxchoice/fastssh")"""
 	print "\n"
 	print """entering big download region prepare you anus
 	if your not ready press ctrl C """
@@ -64,11 +59,6 @@ if check == "n" :
 			os.system("apt install nc")
 			os.system("apt install neofetch")
 			os.system("apt install cupp")
-			os.system("cd /root/tufhub && mkdir wordlists")
-"""			os.system("cd && git clone https://github.com/thelinuxchoice/shellphish")
-			os.system("cd && git clone https://github.com/thelinuxchoice/userrecon")
-			os.system("cd && git clone https://github.com/thelinuxchoice/instaspam")
-			os.system("cd && git clone https://github.com/thelinuxchoice/fastssh")"""
 			print "\n"
 			print """entering big download region prepare you anus
 			if your not ready press ctrl C """
