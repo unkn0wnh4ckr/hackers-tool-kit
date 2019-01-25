@@ -2,6 +2,7 @@ import sys
 import os
 
 def install():
+	os.system("apt install macchanger")
 	os.system("apt install wafw00f")
 	os.system("apt install medusa")
 	os.system("bash /root/hackers-tool-kit/tools/brutexinstall")
