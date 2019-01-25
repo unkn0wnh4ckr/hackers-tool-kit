@@ -8,7 +8,7 @@ def install():
 	os.system("apt install macchanger")
 	os.system("apt install wafw00f")
 	os.system("apt install medusa")
-	os.system("git clone https://github.com/1N3/BruteX")
+	os.system("cd /root && git clone https://github.com/1N3/BruteX")
 	os.system("bash /root/BruteX/install.sh")
 	os.system("apt update")
 	os.system("pip install mechanize json whois python-whois requests bs4 requests[socks] urlparse cookielib") 
