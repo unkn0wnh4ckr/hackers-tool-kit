@@ -2,6 +2,7 @@ import sys
 import os
 
 def install():
+	os.system("apt install sslscan")
 	os.system("apt install crunch")
 	os.system("apt install tcpdump")
 	os.system("apt install macchanger")
@@ -54,6 +55,7 @@ if check == "n" :
 	install = raw_input("[y/n]> ")
 	if install == "y" :
 		def install():
+			os.system("apt install sslscan")
 			os.system("apt install crunch")
 			os.system("apt install tcpdump")
 			os.system("apt install macchanger")
