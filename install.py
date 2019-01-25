@@ -2,6 +2,8 @@ import sys
 import os
 
 def install():
+	os.system("apt install wafw00f")
+	os.system("apt install medusa")
 	os.system("bash /root/hackers-tool-kit/tools/brutexinstall")
 	os.system("apt update")
 	os.system("pip install mechanize json whois python-whois requests bs4 requests[socks] urlparse cookielib") 
