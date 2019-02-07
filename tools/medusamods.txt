@@ -1,0 +1,24 @@
+    + cvs               : Brute force module for CVS sessions : version 2.0
+    + ftp               : Brute force module for FTP/FTPS sessions : version 2.1
+    + http              : Brute force module for HTTP : version 2.1
+    + imapule           : Brute force module for IMAP sessions : version 2.0
+    + mssql             : Brute force module for M$-SQL sessions : version 2.0
+    + mysql             : Brute force module for MySQL sessions : version 2.0
+    + nntp              : Brute force module for NNTP sessions : version 2.0
+    + pcanywhere        : Brute force module for PcAnywhere sessions : version 2.0
+    + pop3              : Brute force module for POP3 sessions : version 2.0
+    + postgres          : Brute force module for PostgreSQL sessions : version 2.0
+    + rexec             : Brute force module for REXEC sessions : version 2.0
+    + rlogin            : Brute force module for RLOGIN sessions : version 2.0
+    + rsh               : Brute force module for RSH sessions : version 2.0
+    + smbnt             : Brute force module for SMB (LM/NTLM/LMv2/NTLMv2) sessions : version 2.1
+    + smtp-vrfy         : Brute force module for verifying SMTP accounts (VRFY/EXPN/RCPT TO) : version 2.1
+    + smtp              : Brute force module for SMTP Authentication with TLS : version 2.0
+    + snmp              : Brute force module for SNMP Community Strings : version 2.1
+    + ssh               : Brute force module for SSH v2 sessions : version 2.1
+    + svn               : Brute force module for Subversion sessions : version 2.1
+    + telnet            : Brute force module for telnet sessions : version 2.0
+    + vmauthd           : Brute force module for the VMware Authentication Daemon : version 2.0
+    + vnc               : Brute force module for VNC sessions : version 2.1
+    + web-form          : Brute force module for web forms : version 2.1
+    + wrapper           : Generic Wrapper Module : version 2.0
