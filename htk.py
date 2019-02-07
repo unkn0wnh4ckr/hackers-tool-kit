@@ -1657,6 +1657,7 @@ def medusa():
 	u = raw_input("User: ")
 	p = raw_input("Wordlist: ")
 	os.system("cat /root/hackers-tool-kit/tools/medusamods.txt")
+	print "\n"
 	m = raw_input("Module: ")
 	n = raw_input("Port: ")
 	a = 'medusa -h {0} -u {1} -P {2} -M {3} -n {4}'.format(k,u,p,m,n)
