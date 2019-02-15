@@ -3,6 +3,8 @@ Its a framework filled with alot of options and hacking tools you use directly i
 from brute forcing to payload making im still adding more stuff to see updates check on 
 my instagram @unkn0wn_bali
 
+![](screenshot.png)
+
 # install
 
 * `git clone https://github.com/unkn0wnh4ckr/hackers-tool-kit`
@@ -11,6 +13,8 @@ my instagram @unkn0wn_bali
 
 * `python install.py`
 
-# Screenshot
+# Run
 
-![](screenshot.png)
+* `cd hackers-tool-kit`
+
+* `python htk.py`
