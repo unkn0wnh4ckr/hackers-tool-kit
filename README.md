@@ -5,9 +5,9 @@ my instagram @unkn0wn_bali
 
 # install
 
-`git clone https://github.com/unkn0wnh4ckr/hackers-tool-kit`
+* `git clone https://github.com/unkn0wnh4ckr/hackers-tool-kit`
 
-`cd hackers-tool-kit`
+* `cd hackers-tool-kit`
 
-`python install.py`
+* `python install.py`
 
