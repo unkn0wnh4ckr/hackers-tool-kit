@@ -12,3 +12,5 @@ my instagram @unkn0wn_bali
 * `python install.py`
 
 # Screenshot
+
+![](screenshot.png)
