@@ -3,11 +3,11 @@ Its a framework filled with alot of options and hacking tools you use directly i
 from brute forcing to payload making im still adding more stuff to see updates check on 
 my instagram @unkn0wn_bali
 
-![](tools/sc reenshot.png)
+![](tools/screenshot.png)
 
-![](tools/sc reenshot2.png)
+![](tools/screenshot2.png)
 
-![](tools/s creenshot3.png)
+![](tools/screenshot3.png)
 # install
 
 * `git clone https://github.com/unkn0wnh4ckr/hackers-tool-kit`
