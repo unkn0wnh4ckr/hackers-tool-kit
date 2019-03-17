@@ -21,3 +21,13 @@ my instagram @unkn0wn_bali
 * `cd hackers-tool-kit`
 
 * `python htk.py`
+
+# HTK Secure
+
+![](tools/screenshot4.png)
+
+the htksecure.py file will run the hackers-tool-kit with proxychains making you anonymous when hacking but some stuff might be slow or not work to run htk secure look below
+
+* cd hackers-tool-kit
+
+* python htksecure.py
