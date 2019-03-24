@@ -38,3 +38,5 @@ this is where i will try to put the most recent updates
 * help banner update
 
 * added a connect option
+
+* added an about me option
