@@ -40,3 +40,5 @@ this is where i will try to put the most recent updates
 * added a connect option
 
 * added an about me option
+
+* changed some things in the myip and sysinfo options
