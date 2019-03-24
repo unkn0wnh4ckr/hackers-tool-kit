@@ -31,3 +31,10 @@ the htksecure.py file will run the hackers-tool-kit with proxychains and other t
 * `cd hackers-tool-kit`
 
 * `python htksecure.py`
+
+# UPDATES
+this is where i will try to put the most recent updates
+
+* help banner update
+
+* added a connect option
