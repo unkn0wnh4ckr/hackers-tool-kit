@@ -35,10 +35,11 @@ the htksecure.py file will run the hackers-tool-kit with proxychains and other t
 # UPDATES
 this is where i will try to put the most recent updates
 
-* help banner update
 
 * added a connect option
 
-* added an about me option
-
 * changed some things in the myip and sysinfo options
+
+* updated arpspoof option
+
+* added a open new terminal option
