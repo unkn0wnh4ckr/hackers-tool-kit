@@ -18,6 +18,8 @@ my instagram @unkn0wn_bali
 
 # Run
 
+ROOT IS NOT REQUIRED TO RUN BUT IS RECOMMENDED
+
 * `cd hackers-tool-kit`
 
 * `python htk.py`
