@@ -38,10 +38,9 @@ the htksecure.py file will run the hackers-tool-kit with proxychains and other t
 this is where i will try to put the most recent updates
 
 
-* added a open new terminal option
-
-* added aircrack-ng automated option
-
-* added a source code grabber option
 
 * added a web directory scanner option
+
+* updated exploits.txt and payloads.txt
+
+* added comments to code making it easier too read
