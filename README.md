@@ -44,3 +44,5 @@ this is where i will try to put the most recent updates
 * updated exploits.txt and payloads.txt
 
 * added comments to code making it easier too read
+
+* added a option to start a server via apache
