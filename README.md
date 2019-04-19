@@ -38,11 +38,8 @@ the htksecure.py file will run the hackers-tool-kit with proxychains and other t
 this is where i will try to put the most recent updates
 
 
-
-* added a web directory scanner option
-
-* updated exploits.txt and payloads.txt
-
 * added comments to code making it easier too read
 
 * added a option to start a server via apache
+
+* added a clearall and a run option
