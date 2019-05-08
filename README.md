@@ -53,3 +53,5 @@ this is where i will try to put the most recent updates
 * added a option to start a server via apache
 
 * added a clearall and a run option
+
+* everytime you run the script it will switch randomly between different banners
