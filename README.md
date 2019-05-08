@@ -8,6 +8,16 @@ my instagram @tuf_unkn0wn
 ![](tools/screenshot2.png)
 
 ![](tools/screenshot3.png)
+
+![](tools/screenshot3.5.png)
+
+![](tools/screenshot4.png)
+
+![](tools/screenshot5.png)
+
+![](tools/screenshot6.png)
+
+![](tools/screenshot7.png)
 # install
 
 * `git clone https://github.com/unkn0wnh4ckr/hackers-tool-kit`
