@@ -49,11 +49,11 @@ this is where i will try to put the most recent updates
 
 
 
-* added a option to start a server via apache
-
 * added a clearall and a run option
 
 * everytime you run the script it will switch randomly between different banners
 
 * added banner option (same thing as clear option just people might not know that clear randomizes the banner)
 also added more banners
+
+* added a phpload option
