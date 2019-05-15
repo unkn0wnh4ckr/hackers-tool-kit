@@ -1,7 +1,7 @@
 # hackers-tool-kit
 Its a framework filled with alot of options and hacking tools you use directly in the script
 from brute forcing to payload making im still adding more stuff to see updates check on 
-my instagram @tuf_unkn0wn
+my instagram @tuf_unkn0wn nigger
 
 ![](tools/screenshot1.png)
 
