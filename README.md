@@ -49,7 +49,6 @@ this is where i will try to put the most recent updates
 
 
 
-* added a clearall and a run option
 
 * everytime you run the script it will switch randomly between different banners
 
@@ -57,3 +56,5 @@ this is where i will try to put the most recent updates
 also added more banners
 
 * added a phpload option
+
+* added a update file
