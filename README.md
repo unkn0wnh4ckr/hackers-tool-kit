@@ -58,3 +58,5 @@ also added more banners
 * added a phpload option
 
 * added a update file
+
+* added python and php payload maker
