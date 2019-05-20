@@ -1,0 +1,553 @@
+Payloads
+========
+
+   #    Name                                                Disclosure Date  Rank    Check  Description
+   -    ----                                                ---------------  ----    -----  -----------
+   1    aix/ppc/shell_bind_tcp                                               normal  No     AIX Command Shell, Bind TCP Inline
+   2    aix/ppc/shell_find_port                                              normal  No     AIX Command Shell, Find Port Inline
+   3    aix/ppc/shell_interact                                               normal  No     AIX execve Shell for inetd
+   4    aix/ppc/shell_reverse_tcp                                            normal  No     AIX Command Shell, Reverse TCP Inline
+   5    android/meterpreter/reverse_http                                     normal  No     Android Meterpreter, Android Reverse HTTP Stager
+   6    android/meterpreter/reverse_https                                    normal  No     Android Meterpreter, Android Reverse HTTPS Stager
+   7    android/meterpreter/reverse_tcp                                      normal  No     Android Meterpreter, Android Reverse TCP Stager
+   8    android/meterpreter_reverse_http                                     normal  No     Android Meterpreter Shell, Reverse HTTP Inline
+   9    android/meterpreter_reverse_https                                    normal  No     Android Meterpreter Shell, Reverse HTTPS Inline
+   10   android/meterpreter_reverse_tcp                                      normal  No     Android Meterpreter Shell, Reverse TCP Inline
+   11   android/shell/reverse_http                                           normal  No     Command Shell, Android Reverse HTTP Stager
+   12   android/shell/reverse_https                                          normal  No     Command Shell, Android Reverse HTTPS Stager
+   13   android/shell/reverse_tcp                                            normal  No     Command Shell, Android Reverse TCP Stager
+   14   apple_ios/aarch64/meterpreter_reverse_http                           normal  No     Apple_iOS Meterpreter, Reverse HTTP Inline
+   15   apple_ios/aarch64/meterpreter_reverse_https                          normal  No     Apple_iOS Meterpreter, Reverse HTTPS Inline
+   16   apple_ios/aarch64/meterpreter_reverse_tcp                            normal  No     Apple_iOS Meterpreter, Reverse TCP Inline
+   17   apple_ios/aarch64/shell_reverse_tcp                                  normal  No     Apple iOS aarch64 Command Shell, Reverse TCP Inline
+   18   apple_ios/armle/meterpreter_reverse_http                             normal  No     Apple_iOS Meterpreter, Reverse HTTP Inline
+   19   apple_ios/armle/meterpreter_reverse_https                            normal  No     Apple_iOS Meterpreter, Reverse HTTPS Inline
+   20   apple_ios/armle/meterpreter_reverse_tcp                              normal  No     Apple_iOS Meterpreter, Reverse TCP Inline
+   21   bsd/sparc/shell_bind_tcp                                             normal  No     BSD Command Shell, Bind TCP Inline
+   22   bsd/sparc/shell_reverse_tcp                                          normal  No     BSD Command Shell, Reverse TCP Inline
+   23   bsd/vax/shell_reverse_tcp                                            normal  No     BSD Command Shell, Reverse TCP Inline
+   24   bsd/x64/exec                                                         normal  No     BSD x64 Execute Command
+   25   bsd/x64/shell_bind_ipv6_tcp                                          normal  No     BSD x64 Command Shell, Bind TCP Inline (IPv6)
+   26   bsd/x64/shell_bind_tcp                                               normal  No     BSD x64 Shell Bind TCP
+   27   bsd/x64/shell_bind_tcp_small                                         normal  No     BSD x64 Command Shell, Bind TCP Inline
+   28   bsd/x64/shell_reverse_ipv6_tcp                                       normal  No     BSD x64 Command Shell, Reverse TCP Inline (IPv6)
+   29   bsd/x64/shell_reverse_tcp                                            normal  No     BSD x64 Shell Reverse TCP
+   30   bsd/x64/shell_reverse_tcp_small                                      normal  No     BSD x64 Command Shell, Reverse TCP Inline
+   31   bsd/x86/exec                                                         normal  No     BSD Execute Command
+   32   bsd/x86/metsvc_bind_tcp                                              normal  No     FreeBSD Meterpreter Service, Bind TCP
+   33   bsd/x86/metsvc_reverse_tcp                                           normal  No     FreeBSD Meterpreter Service, Reverse TCP Inline
+   34   bsd/x86/shell/bind_ipv6_tcp                                          normal  No     BSD Command Shell, Bind TCP Stager (IPv6)
+   35   bsd/x86/shell/bind_tcp                                               normal  No     BSD Command Shell, Bind TCP Stager
+   36   bsd/x86/shell/find_tag                                               normal  No     BSD Command Shell, Find Tag Stager
+   37   bsd/x86/shell/reverse_ipv6_tcp                                       normal  No     BSD Command Shell, Reverse TCP Stager (IPv6)
+   38   bsd/x86/shell/reverse_tcp                                            normal  No     BSD Command Shell, Reverse TCP Stager
+   39   bsd/x86/shell_bind_tcp                                               normal  No     BSD Command Shell, Bind TCP Inline
+   40   bsd/x86/shell_bind_tcp_ipv6                                          normal  No     BSD Command Shell, Bind TCP Inline (IPv6)
+   41   bsd/x86/shell_find_port                                              normal  No     BSD Command Shell, Find Port Inline
+   42   bsd/x86/shell_find_tag                                               normal  No     BSD Command Shell, Find Tag Inline
+   43   bsd/x86/shell_reverse_tcp                                            normal  No     BSD Command Shell, Reverse TCP Inline
+   44   bsd/x86/shell_reverse_tcp_ipv6                                       normal  No     BSD Command Shell, Reverse TCP Inline (IPv6)
+   45   bsdi/x86/shell/bind_tcp                                              normal  No     BSDi Command Shell, Bind TCP Stager
+   46   bsdi/x86/shell/reverse_tcp                                           normal  No     BSDi Command Shell, Reverse TCP Stager
+   47   bsdi/x86/shell_bind_tcp                                              normal  No     BSDi Command Shell, Bind TCP Inline
+   48   bsdi/x86/shell_find_port                                             normal  No     BSDi Command Shell, Find Port Inline
+   49   bsdi/x86/shell_reverse_tcp                                           normal  No     BSDi Command Shell, Reverse TCP Inline
+   50   cmd/mainframe/apf_privesc_jcl                                        normal  No     JCL to Escalate Privileges
+   51   cmd/mainframe/bind_shell_jcl                                         normal  No     Z/OS (MVS) Command Shell, Bind TCP
+   52   cmd/mainframe/generic_jcl                                            normal  No     Generic JCL Test for Mainframe Exploits
+   53   cmd/mainframe/reverse_shell_jcl                                      normal  No     Z/OS (MVS) Command Shell, Reverse TCP
+   54   cmd/unix/bind_awk                                                    normal  No     Unix Command Shell, Bind TCP (via AWK)
+   55   cmd/unix/bind_busybox_telnetd                                        normal  No     Unix Command Shell, Bind TCP (via BusyBox telnetd)
+   56   cmd/unix/bind_inetd                                                  normal  No     Unix Command Shell, Bind TCP (inetd)
+   57   cmd/unix/bind_lua                                                    normal  No     Unix Command Shell, Bind TCP (via Lua)
+   58   cmd/unix/bind_netcat                                                 normal  No     Unix Command Shell, Bind TCP (via netcat)
+   59   cmd/unix/bind_netcat_gaping                                          normal  No     Unix Command Shell, Bind TCP (via netcat -e)
+   60   cmd/unix/bind_netcat_gaping_ipv6                                     normal  No     Unix Command Shell, Bind TCP (via netcat -e) IPv6
+   61   cmd/unix/bind_nodejs                                                 normal  No     Unix Command Shell, Bind TCP (via nodejs)
+   62   cmd/unix/bind_perl                                                   normal  No     Unix Command Shell, Bind TCP (via Perl)
+   63   cmd/unix/bind_perl_ipv6                                              normal  No     Unix Command Shell, Bind TCP (via perl) IPv6
+   64   cmd/unix/bind_r                                                      normal  No     Unix Command Shell, Bind TCP (via R)
+   65   cmd/unix/bind_ruby                                                   normal  No     Unix Command Shell, Bind TCP (via Ruby)
+   66   cmd/unix/bind_ruby_ipv6                                              normal  No     Unix Command Shell, Bind TCP (via Ruby) IPv6
+   67   cmd/unix/bind_socat_udp                                              normal  No     Unix Command Shell, Bind UDP (via socat)
+   68   cmd/unix/bind_stub                                                   normal  No     Unix Command Shell, Bind TCP (stub)
+   69   cmd/unix/bind_zsh                                                    normal  No     Unix Command Shell, Bind TCP (via Zsh)
+   70   cmd/unix/generic                                                     normal  No     Unix Command, Generic Command Execution
+   71   cmd/unix/interact                                                    normal  No     Unix Command, Interact with Established Connection
+   72   cmd/unix/reverse                                                     normal  No     Unix Command Shell, Double Reverse TCP (telnet)
+   73   cmd/unix/reverse_awk                                                 normal  No     Unix Command Shell, Reverse TCP (via AWK)
+   74   cmd/unix/reverse_bash                                                normal  No     Unix Command Shell, Reverse TCP (/dev/tcp)
+   75   cmd/unix/reverse_bash_telnet_ssl                                     normal  No     Unix Command Shell, Reverse TCP SSL (telnet)
+   76   cmd/unix/reverse_ksh                                                 normal  No     Unix Command Shell, Reverse TCP (via Ksh)
+   77   cmd/unix/reverse_lua                                                 normal  No     Unix Command Shell, Reverse TCP (via Lua)
+   78   cmd/unix/reverse_ncat_ssl                                            normal  No     Unix Command Shell, Reverse TCP (via ncat)
+   79   cmd/unix/reverse_netcat                                              normal  No     Unix Command Shell, Reverse TCP (via netcat)
+   80   cmd/unix/reverse_netcat_gaping                                       normal  No     Unix Command Shell, Reverse TCP (via netcat -e)
+   81   cmd/unix/reverse_nodejs                                              normal  No     Unix Command Shell, Reverse TCP (via nodejs)
+   82   cmd/unix/reverse_openssl                                             normal  No     Unix Command Shell, Double Reverse TCP SSL (openssl)
+   83   cmd/unix/reverse_perl                                                normal  No     Unix Command Shell, Reverse TCP (via Perl)
+   84   cmd/unix/reverse_perl_ssl                                            normal  No     Unix Command Shell, Reverse TCP SSL (via perl)
+   85   cmd/unix/reverse_php_ssl                                             normal  No     Unix Command Shell, Reverse TCP SSL (via php)
+   86   cmd/unix/reverse_python                                              normal  No     Unix Command Shell, Reverse TCP (via Python)
+   87   cmd/unix/reverse_python_ssl                                          normal  No     Unix Command Shell, Reverse TCP SSL (via python)
+   88   cmd/unix/reverse_r                                                   normal  No     Unix Command Shell, Reverse TCP (via R)
+   89   cmd/unix/reverse_ruby                                                normal  No     Unix Command Shell, Reverse TCP (via Ruby)
+   90   cmd/unix/reverse_ruby_ssl                                            normal  No     Unix Command Shell, Reverse TCP SSL (via Ruby)
+   91   cmd/unix/reverse_socat_udp                                           normal  No     Unix Command Shell, Reverse UDP (via socat)
+   92   cmd/unix/reverse_ssl_double_telnet                                   normal  No     Unix Command Shell, Double Reverse TCP SSL (telnet)
+   93   cmd/unix/reverse_stub                                                normal  No     Unix Command Shell, Reverse TCP (stub)
+   94   cmd/unix/reverse_zsh                                                 normal  No     Unix Command Shell, Reverse TCP (via Zsh)
+   95   cmd/windows/adduser                                                  normal  No     Windows Execute net user /ADD CMD
+   96   cmd/windows/bind_lua                                                 normal  No     Windows Command Shell, Bind TCP (via Lua)
+   97   cmd/windows/bind_perl                                                normal  No     Windows Command Shell, Bind TCP (via Perl)
+   98   cmd/windows/bind_perl_ipv6                                           normal  No     Windows Command Shell, Bind TCP (via perl) IPv6
+   99   cmd/windows/bind_ruby                                                normal  No     Windows Command Shell, Bind TCP (via Ruby)
+   100  cmd/windows/download_eval_vbs                                        normal  No     Windows Executable Download and Evaluate VBS
+   101  cmd/windows/download_exec_vbs                                        normal  No     Windows Executable Download and Execute (via .vbs)
+   102  cmd/windows/generic                                                  normal  No     Windows Command, Generic Command Execution
+   103  cmd/windows/powershell_bind_tcp                                      normal  No     Windows Interactive Powershell Session, Bind TCP
+   104  cmd/windows/powershell_reverse_tcp                                   normal  No     Windows Interactive Powershell Session, Reverse TCP
+   105  cmd/windows/reverse_lua                                              normal  No     Windows Command Shell, Reverse TCP (via Lua)
+   106  cmd/windows/reverse_perl                                             normal  No     Windows Command, Double Reverse TCP Connection (via Perl)
+   107  cmd/windows/reverse_powershell                                       normal  No     Windows Command Shell, Reverse TCP (via Powershell)
+   108  cmd/windows/reverse_ruby                                             normal  No     Windows Command Shell, Reverse TCP (via Ruby)
+   109  firefox/exec                                                         normal  No     Firefox XPCOM Execute Command
+   110  firefox/shell_bind_tcp                                               normal  No     Command Shell, Bind TCP (via Firefox XPCOM script)
+   111  firefox/shell_reverse_tcp                                            normal  No     Command Shell, Reverse TCP (via Firefox XPCOM script)
+   112  generic/custom                                                       normal  No     Custom Payload
+   113  generic/debug_trap                                                   normal  No     Generic x86 Debug Trap
+   114  generic/shell_bind_tcp                                               normal  No     Generic Command Shell, Bind TCP Inline
+   115  generic/shell_reverse_tcp                                            normal  No     Generic Command Shell, Reverse TCP Inline
+   116  generic/tight_loop                                                   normal  No     Generic x86 Tight Loop
+   117  java/jsp_shell_bind_tcp                                              normal  No     Java JSP Command Shell, Bind TCP Inline
+   118  java/jsp_shell_reverse_tcp                                           normal  No     Java JSP Command Shell, Reverse TCP Inline
+   119  java/meterpreter/bind_tcp                                            normal  No     Java Meterpreter, Java Bind TCP Stager
+   120  java/meterpreter/reverse_http                                        normal  No     Java Meterpreter, Java Reverse HTTP Stager
+   121  java/meterpreter/reverse_https                                       normal  No     Java Meterpreter, Java Reverse HTTPS Stager
+   122  java/meterpreter/reverse_tcp                                         normal  No     Java Meterpreter, Java Reverse TCP Stager
+   123  java/shell/bind_tcp                                                  normal  No     Command Shell, Java Bind TCP Stager
+   124  java/shell/reverse_tcp                                               normal  No     Command Shell, Java Reverse TCP Stager
+   125  java/shell_reverse_tcp                                               normal  No     Java Command Shell, Reverse TCP Inline
+   126  linux/aarch64/meterpreter/reverse_tcp                                normal  No     Linux Meterpreter, Reverse TCP Stager
+   127  linux/aarch64/meterpreter_reverse_http                               normal  No     Linux Meterpreter, Reverse HTTP Inline
+   128  linux/aarch64/meterpreter_reverse_https                              normal  No     Linux Meterpreter, Reverse HTTPS Inline
+   129  linux/aarch64/meterpreter_reverse_tcp                                normal  No     Linux Meterpreter, Reverse TCP Inline
+   130  linux/aarch64/shell/reverse_tcp                                      normal  No     Linux dup2 Command Shell, Reverse TCP Stager
+   131  linux/aarch64/shell_reverse_tcp                                      normal  No     Linux Command Shell, Reverse TCP Inline
+   132  linux/armbe/meterpreter_reverse_http                                 normal  No     Linux Meterpreter, Reverse HTTP Inline
+   133  linux/armbe/meterpreter_reverse_https                                normal  No     Linux Meterpreter, Reverse HTTPS Inline
+   134  linux/armbe/meterpreter_reverse_tcp                                  normal  No     Linux Meterpreter, Reverse TCP Inline
+   135  linux/armbe/shell_bind_tcp                                           normal  No     Linux ARM Big Endian Command Shell, Bind TCP Inline
+   136  linux/armle/adduser                                                  normal  No     Linux Add User
+   137  linux/armle/exec                                                     normal  No     Linux Execute Command
+   138  linux/armle/meterpreter/bind_tcp                                     normal  No     Linux Meterpreter, Bind TCP Stager
+   139  linux/armle/meterpreter/reverse_tcp                                  normal  No     Linux Meterpreter, Reverse TCP Stager
+   140  linux/armle/meterpreter_reverse_http                                 normal  No     Linux Meterpreter, Reverse HTTP Inline
+   141  linux/armle/meterpreter_reverse_https                                normal  No     Linux Meterpreter, Reverse HTTPS Inline
+   142  linux/armle/meterpreter_reverse_tcp                                  normal  No     Linux Meterpreter, Reverse TCP Inline
+   143  linux/armle/shell/bind_tcp                                           normal  No     Linux dup2 Command Shell, Bind TCP Stager
+   144  linux/armle/shell/reverse_tcp                                        normal  No     Linux dup2 Command Shell, Reverse TCP Stager
+   145  linux/armle/shell_bind_tcp                                           normal  No     Linux Command Shell, Reverse TCP Inline
+   146  linux/armle/shell_reverse_tcp                                        normal  No     Linux Command Shell, Reverse TCP Inline
+   147  linux/mips64/meterpreter_reverse_http                                normal  No     Linux Meterpreter, Reverse HTTP Inline
+   148  linux/mips64/meterpreter_reverse_https                               normal  No     Linux Meterpreter, Reverse HTTPS Inline
+   149  linux/mips64/meterpreter_reverse_tcp                                 normal  No     Linux Meterpreter, Reverse TCP Inline
+   150  linux/mipsbe/exec                                                    normal  No     Linux Execute Command
+   151  linux/mipsbe/meterpreter/reverse_tcp                                 normal  No     Linux Meterpreter, Reverse TCP Stager
+   152  linux/mipsbe/meterpreter_reverse_http                                normal  No     Linux Meterpreter, Reverse HTTP Inline
+   153  linux/mipsbe/meterpreter_reverse_https                               normal  No     Linux Meterpreter, Reverse HTTPS Inline
+   154  linux/mipsbe/meterpreter_reverse_tcp                                 normal  No     Linux Meterpreter, Reverse TCP Inline
+   155  linux/mipsbe/reboot                                                  normal  No     Linux Reboot
+   156  linux/mipsbe/shell/reverse_tcp                                       normal  No     Linux Command Shell, Reverse TCP Stager
+   157  linux/mipsbe/shell_bind_tcp                                          normal  No     Linux Command Shell, Bind TCP Inline
+   158  linux/mipsbe/shell_reverse_tcp                                       normal  No     Linux Command Shell, Reverse TCP Inline
+   159  linux/mipsle/exec                                                    normal  No     Linux Execute Command
+   160  linux/mipsle/meterpreter/reverse_tcp                                 normal  No     Linux Meterpreter, Reverse TCP Stager
+   161  linux/mipsle/meterpreter_reverse_http                                normal  No     Linux Meterpreter, Reverse HTTP Inline
+   162  linux/mipsle/meterpreter_reverse_https                               normal  No     Linux Meterpreter, Reverse HTTPS Inline
+   163  linux/mipsle/meterpreter_reverse_tcp                                 normal  No     Linux Meterpreter, Reverse TCP Inline
+   164  linux/mipsle/reboot                                                  normal  No     Linux Reboot
+   165  linux/mipsle/shell/reverse_tcp                                       normal  No     Linux Command Shell, Reverse TCP Stager
+   166  linux/mipsle/shell_bind_tcp                                          normal  No     Linux Command Shell, Bind TCP Inline
+   167  linux/mipsle/shell_reverse_tcp                                       normal  No     Linux Command Shell, Reverse TCP Inline
+   168  linux/ppc/meterpreter_reverse_http                                   normal  No     Linux Meterpreter, Reverse HTTP Inline
+   169  linux/ppc/meterpreter_reverse_https                                  normal  No     Linux Meterpreter, Reverse HTTPS Inline
+   170  linux/ppc/meterpreter_reverse_tcp                                    normal  No     Linux Meterpreter, Reverse TCP Inline
+   171  linux/ppc/shell_bind_tcp                                             normal  No     Linux Command Shell, Bind TCP Inline
+   172  linux/ppc/shell_find_port                                            normal  No     Linux Command Shell, Find Port Inline
+   173  linux/ppc/shell_reverse_tcp                                          normal  No     Linux Command Shell, Reverse TCP Inline
+   174  linux/ppc64/shell_bind_tcp                                           normal  No     Linux Command Shell, Bind TCP Inline
+   175  linux/ppc64/shell_find_port                                          normal  No     Linux Command Shell, Find Port Inline
+   176  linux/ppc64/shell_reverse_tcp                                        normal  No     Linux Command Shell, Reverse TCP Inline
+   177  linux/ppc64le/meterpreter_reverse_http                               normal  No     Linux Meterpreter, Reverse HTTP Inline
+   178  linux/ppc64le/meterpreter_reverse_https                              normal  No     Linux Meterpreter, Reverse HTTPS Inline
+   179  linux/ppc64le/meterpreter_reverse_tcp                                normal  No     Linux Meterpreter, Reverse TCP Inline
+   180  linux/ppce500v2/meterpreter_reverse_http                             normal  No     Linux Meterpreter, Reverse HTTP Inline
+   181  linux/ppce500v2/meterpreter_reverse_https                            normal  No     Linux Meterpreter, Reverse HTTPS Inline
+   182  linux/ppce500v2/meterpreter_reverse_tcp                              normal  No     Linux Meterpreter, Reverse TCP Inline
+   183  linux/x64/exec                                                       normal  No     Linux Execute Command
+   184  linux/x64/meterpreter/bind_tcp                                       normal  No     Linux Mettle x64, Bind TCP Stager
+   185  linux/x64/meterpreter/reverse_tcp                                    normal  No     Linux Mettle x64, Reverse TCP Stager
+   186  linux/x64/meterpreter_reverse_http                                   normal  No     Linux Meterpreter, Reverse HTTP Inline
+   187  linux/x64/meterpreter_reverse_https                                  normal  No     Linux Meterpreter, Reverse HTTPS Inline
+   188  linux/x64/meterpreter_reverse_tcp                                    normal  No     Linux Meterpreter, Reverse TCP Inline
+   189  linux/x64/shell/bind_tcp                                             normal  No     Linux Command Shell, Bind TCP Stager
+   190  linux/x64/shell/reverse_tcp                                          normal  No     Linux Command Shell, Reverse TCP Stager
+   191  linux/x64/shell_bind_ipv6_tcp                                        normal  No     Linux x64 Command Shell, Bind TCP Inline (IPv6)
+   192  linux/x64/shell_bind_tcp                                             normal  No     Linux Command Shell, Bind TCP Inline
+   193  linux/x64/shell_bind_tcp_random_port                                 normal  No     Linux Command Shell, Bind TCP Random Port Inline
+   194  linux/x64/shell_find_port                                            normal  No     Linux Command Shell, Find Port Inline
+   195  linux/x64/shell_reverse_ipv6_tcp                                     normal  No     Linux x64 Command Shell, Reverse TCP Inline (IPv6)
+   196  linux/x64/shell_reverse_tcp                                          normal  No     Linux Command Shell, Reverse TCP Inline
+   197  linux/x86/adduser                                                    normal  No     Linux Add User
+   198  linux/x86/chmod                                                      normal  No     Linux Chmod
+   199  linux/x86/exec                                                       normal  No     Linux Execute Command
+   200  linux/x86/meterpreter/bind_ipv6_tcp                                  normal  No     Linux Mettle x86, Bind IPv6 TCP Stager (Linux x86)
+   201  linux/x86/meterpreter/bind_ipv6_tcp_uuid                             normal  No     Linux Mettle x86, Bind IPv6 TCP Stager with UUID Support (Linux x86)
+   202  linux/x86/meterpreter/bind_nonx_tcp                                  normal  No     Linux Mettle x86, Bind TCP Stager
+   203  linux/x86/meterpreter/bind_tcp                                       normal  No     Linux Mettle x86, Bind TCP Stager (Linux x86)
+   204  linux/x86/meterpreter/bind_tcp_uuid                                  normal  No     Linux Mettle x86, Bind TCP Stager with UUID Support (Linux x86)
+   205  linux/x86/meterpreter/find_tag                                       normal  No     Linux Mettle x86, Find Tag Stager
+   206  linux/x86/meterpreter/reverse_ipv6_tcp                               normal  No     Linux Mettle x86, Reverse TCP Stager (IPv6)
+   207  linux/x86/meterpreter/reverse_nonx_tcp                               normal  No     Linux Mettle x86, Reverse TCP Stager
+   208  linux/x86/meterpreter/reverse_tcp                                    normal  No     Linux Mettle x86, Reverse TCP Stager
+   209  linux/x86/meterpreter/reverse_tcp_uuid                               normal  No     Linux Mettle x86, Reverse TCP Stager
+   210  linux/x86/meterpreter_reverse_http                                   normal  No     Linux Meterpreter, Reverse HTTP Inline
+   211  linux/x86/meterpreter_reverse_https                                  normal  No     Linux Meterpreter, Reverse HTTPS Inline
+   212  linux/x86/meterpreter_reverse_tcp                                    normal  No     Linux Meterpreter, Reverse TCP Inline
+   213  linux/x86/metsvc_bind_tcp                                            normal  No     Linux Meterpreter Service, Bind TCP
+   214  linux/x86/metsvc_reverse_tcp                                         normal  No     Linux Meterpreter Service, Reverse TCP Inline
+   215  linux/x86/read_file                                                  normal  No     Linux Read File
+   216  linux/x86/shell/bind_ipv6_tcp                                        normal  No     Linux Command Shell, Bind IPv6 TCP Stager (Linux x86)
+   217  linux/x86/shell/bind_ipv6_tcp_uuid                                   normal  No     Linux Command Shell, Bind IPv6 TCP Stager with UUID Support (Linux x86)
+   218  linux/x86/shell/bind_nonx_tcp                                        normal  No     Linux Command Shell, Bind TCP Stager
+   219  linux/x86/shell/bind_tcp                                             normal  No     Linux Command Shell, Bind TCP Stager (Linux x86)
+   220  linux/x86/shell/bind_tcp_uuid                                        normal  No     Linux Command Shell, Bind TCP Stager with UUID Support (Linux x86)
+   221  linux/x86/shell/find_tag                                             normal  No     Linux Command Shell, Find Tag Stager
+   222  linux/x86/shell/reverse_ipv6_tcp                                     normal  No     Linux Command Shell, Reverse TCP Stager (IPv6)
+   223  linux/x86/shell/reverse_nonx_tcp                                     normal  No     Linux Command Shell, Reverse TCP Stager
+   224  linux/x86/shell/reverse_tcp                                          normal  No     Linux Command Shell, Reverse TCP Stager
+   225  linux/x86/shell/reverse_tcp_uuid                                     normal  No     Linux Command Shell, Reverse TCP Stager
+   226  linux/x86/shell_bind_ipv6_tcp                                        normal  No     Linux Command Shell, Bind TCP Inline (IPv6)
+   227  linux/x86/shell_bind_tcp                                             normal  No     Linux Command Shell, Bind TCP Inline
+   228  linux/x86/shell_bind_tcp_random_port                                 normal  No     Linux Command Shell, Bind TCP Random Port Inline
+   229  linux/x86/shell_find_port                                            normal  No     Linux Command Shell, Find Port Inline
+   230  linux/x86/shell_find_tag                                             normal  No     Linux Command Shell, Find Tag Inline
+   231  linux/x86/shell_reverse_tcp                                          normal  No     Linux Command Shell, Reverse TCP Inline
+   232  linux/x86/shell_reverse_tcp_ipv6                                     normal  No     Linux Command Shell, Reverse TCP Inline (IPv6)
+   233  linux/zarch/meterpreter_reverse_http                                 normal  No     Linux Meterpreter, Reverse HTTP Inline
+   234  linux/zarch/meterpreter_reverse_https                                normal  No     Linux Meterpreter, Reverse HTTPS Inline
+   235  linux/zarch/meterpreter_reverse_tcp                                  normal  No     Linux Meterpreter, Reverse TCP Inline
+   236  mainframe/shell_reverse_tcp                                          normal  No     Z/OS (MVS) Command Shell, Reverse TCP Inline
+   237  multi/meterpreter/reverse_http                                       normal  No     Architecture-Independent Meterpreter Stage, Reverse HTTP Stager (Mulitple Architectures)
+   238  multi/meterpreter/reverse_https                                      normal  No     Architecture-Independent Meterpreter Stage, Reverse HTTPS Stager (Mulitple Architectures)
+   239  netware/shell/reverse_tcp                                            normal  No     NetWare Command Shell, Reverse TCP Stager
+   240  nodejs/shell_bind_tcp                                                normal  No     Command Shell, Bind TCP (via nodejs)
+   241  nodejs/shell_reverse_tcp                                             normal  No     Command Shell, Reverse TCP (via nodejs)
+   242  nodejs/shell_reverse_tcp_ssl                                         normal  No     Command Shell, Reverse TCP SSL (via nodejs)
+   243  osx/armle/execute/bind_tcp                                           normal  No     OS X Write and Execute Binary, Bind TCP Stager
+   244  osx/armle/execute/reverse_tcp                                        normal  No     OS X Write and Execute Binary, Reverse TCP Stager
+   245  osx/armle/shell/bind_tcp                                             normal  No     OS X Command Shell, Bind TCP Stager
+   246  osx/armle/shell/reverse_tcp                                          normal  No     OS X Command Shell, Reverse TCP Stager
+   247  osx/armle/shell_bind_tcp                                             normal  No     Apple iOS Command Shell, Bind TCP Inline
+   248  osx/armle/shell_reverse_tcp                                          normal  No     Apple iOS Command Shell, Reverse TCP Inline
+   249  osx/armle/vibrate                                                    normal  No     Apple iOS iPhone Vibrate
+   250  osx/ppc/shell/bind_tcp                                               normal  No     OS X Command Shell, Bind TCP Stager
+   251  osx/ppc/shell/find_tag                                               normal  No     OS X Command Shell, Find Tag Stager
+   252  osx/ppc/shell/reverse_tcp                                            normal  No     OS X Command Shell, Reverse TCP Stager
+   253  osx/ppc/shell_bind_tcp                                               normal  No     OS X Command Shell, Bind TCP Inline
+   254  osx/ppc/shell_reverse_tcp                                            normal  No     OS X Command Shell, Reverse TCP Inline
+   255  osx/x64/dupandexecve/bind_tcp                                        normal  No     OS X dup2 Command Shell, Bind TCP Stager
+   256  osx/x64/dupandexecve/reverse_tcp                                     normal  No     OS X dup2 Command Shell, Reverse TCP Stager
+   257  osx/x64/exec                                                         normal  No     OS X x64 Execute Command
+   258  osx/x64/meterpreter/bind_tcp                                         normal  No     OSX Meterpreter, Bind TCP Stager
+   259  osx/x64/meterpreter/reverse_tcp                                      normal  No     OSX Meterpreter, Reverse TCP Stager
+   260  osx/x64/meterpreter_reverse_http                                     normal  No     OSX Meterpreter, Reverse HTTP Inline
+   261  osx/x64/meterpreter_reverse_https                                    normal  No     OSX Meterpreter, Reverse HTTPS Inline
+   262  osx/x64/meterpreter_reverse_tcp                                      normal  No     OSX Meterpreter, Reverse TCP Inline
+   263  osx/x64/say                                                          normal  No     OS X x64 say Shellcode
+   264  osx/x64/shell_bind_tcp                                               normal  No     OS X x64 Shell Bind TCP
+   265  osx/x64/shell_find_tag                                               normal  No     OSX Command Shell, Find Tag Inline
+   266  osx/x64/shell_reverse_tcp                                            normal  No     OS X x64 Shell Reverse TCP
+   267  osx/x86/bundleinject/bind_tcp                                        normal  No     Mac OS X Inject Mach-O Bundle, Bind TCP Stager
+   268  osx/x86/bundleinject/reverse_tcp                                     normal  No     Mac OS X Inject Mach-O Bundle, Reverse TCP Stager
+   269  osx/x86/exec                                                         normal  No     OS X Execute Command
+   270  osx/x86/isight/bind_tcp                                              normal  No     Mac OS X x86 iSight Photo Capture, Bind TCP Stager
+   271  osx/x86/isight/reverse_tcp                                           normal  No     Mac OS X x86 iSight Photo Capture, Reverse TCP Stager
+   272  osx/x86/shell_bind_tcp                                               normal  No     OS X Command Shell, Bind TCP Inline
+   273  osx/x86/shell_find_port                                              normal  No     OS X Command Shell, Find Port Inline
+   274  osx/x86/shell_reverse_tcp                                            normal  No     OS X Command Shell, Reverse TCP Inline
+   275  osx/x86/vforkshell/bind_tcp                                          normal  No     OS X (vfork) Command Shell, Bind TCP Stager
+   276  osx/x86/vforkshell/reverse_tcp                                       normal  No     OS X (vfork) Command Shell, Reverse TCP Stager
+   277  osx/x86/vforkshell_bind_tcp                                          normal  No     OS X (vfork) Command Shell, Bind TCP Inline
+   278  osx/x86/vforkshell_reverse_tcp                                       normal  No     OS X (vfork) Command Shell, Reverse TCP Inline
+   279  php/bind_perl                                                        normal  No     PHP Command Shell, Bind TCP (via Perl)
+   280  php/bind_perl_ipv6                                                   normal  No     PHP Command Shell, Bind TCP (via perl) IPv6
+   281  php/bind_php                                                         normal  No     PHP Command Shell, Bind TCP (via PHP)
+   282  php/bind_php_ipv6                                                    normal  No     PHP Command Shell, Bind TCP (via php) IPv6
+   283  php/download_exec                                                    normal  No     PHP Executable Download and Execute
+   284  php/exec                                                             normal  No     PHP Execute Command 
+   285  php/meterpreter/bind_tcp                                             normal  No     PHP Meterpreter, Bind TCP Stager
+   286  php/meterpreter/bind_tcp_ipv6                                        normal  No     PHP Meterpreter, Bind TCP Stager IPv6
+   287  php/meterpreter/bind_tcp_ipv6_uuid                                   normal  No     PHP Meterpreter, Bind TCP Stager IPv6 with UUID Support
+   288  php/meterpreter/bind_tcp_uuid                                        normal  No     PHP Meterpreter, Bind TCP Stager with UUID Support
+   289  php/meterpreter/reverse_tcp                                          normal  No     PHP Meterpreter, PHP Reverse TCP Stager
+   290  php/meterpreter/reverse_tcp_uuid                                     normal  No     PHP Meterpreter, PHP Reverse TCP Stager
+   291  php/meterpreter_reverse_tcp                                          normal  No     PHP Meterpreter, Reverse TCP Inline
+   292  php/reverse_perl                                                     normal  No     PHP Command, Double Reverse TCP Connection (via Perl)
+   293  php/reverse_php                                                      normal  No     PHP Command Shell, Reverse TCP (via PHP)
+   294  php/shell_findsock                                                   normal  No     PHP Command Shell, Find Sock
+   295  python/meterpreter/bind_tcp                                          normal  No     Python Meterpreter, Python Bind TCP Stager
+   296  python/meterpreter/bind_tcp_uuid                                     normal  No     Python Meterpreter, Python Bind TCP Stager with UUID Support
+   297  python/meterpreter/reverse_http                                      normal  No     Python Meterpreter, Python Reverse HTTP Stager
+   298  python/meterpreter/reverse_https                                     normal  No     Python Meterpreter, Python Reverse HTTPS Stager
+   299  python/meterpreter/reverse_tcp                                       normal  No     Python Meterpreter, Python Reverse TCP Stager
+   300  python/meterpreter/reverse_tcp_ssl                                   normal  No     Python Meterpreter, Python Reverse TCP SSL Stager
+   301  python/meterpreter/reverse_tcp_uuid                                  normal  No     Python Meterpreter, Python Reverse TCP Stager with UUID Support
+   302  python/meterpreter_bind_tcp                                          normal  No     Python Meterpreter Shell, Bind TCP Inline
+   303  python/meterpreter_reverse_http                                      normal  No     Python Meterpreter Shell, Reverse HTTP Inline
+   304  python/meterpreter_reverse_https                                     normal  No     Python Meterpreter Shell, Reverse HTTPS Inline
+   305  python/meterpreter_reverse_tcp                                       normal  No     Python Meterpreter Shell, Reverse TCP Inline
+   306  python/shell_bind_tcp                                                normal  No     Command Shell, Bind TCP (via python)
+   307  python/shell_reverse_tcp                                             normal  No     Command Shell, Reverse TCP (via python)
+   308  python/shell_reverse_tcp_ssl                                         normal  No     Command Shell, Reverse TCP SSL (via python)
+   309  python/shell_reverse_udp                                             normal  No     Command Shell, Reverse UDP (via python)
+   310  r/shell_bind_tcp                                                     normal  No     R Command Shell, Bind TCP
+   311  r/shell_reverse_tcp                                                  normal  No     R Command Shell, Reverse TCP
+   312  ruby/shell_bind_tcp                                                  normal  No     Ruby Command Shell, Bind TCP
+   313  ruby/shell_bind_tcp_ipv6                                             normal  No     Ruby Command Shell, Bind TCP IPv6
+   314  ruby/shell_reverse_tcp                                               normal  No     Ruby Command Shell, Reverse TCP
+   315  ruby/shell_reverse_tcp_ssl                                           normal  No     Ruby Command Shell, Reverse TCP SSL
+   316  solaris/sparc/shell_bind_tcp                                         normal  No     Solaris Command Shell, Bind TCP Inline
+   317  solaris/sparc/shell_find_port                                        normal  No     Solaris Command Shell, Find Port Inline
+   318  solaris/sparc/shell_reverse_tcp                                      normal  No     Solaris Command Shell, Reverse TCP Inline
+   319  solaris/x86/shell_bind_tcp                                           normal  No     Solaris Command Shell, Bind TCP Inline
+   320  solaris/x86/shell_find_port                                          normal  No     Solaris Command Shell, Find Port Inline
+   321  solaris/x86/shell_reverse_tcp                                        normal  No     Solaris Command Shell, Reverse TCP Inline
+   322  tty/unix/interact                                                    normal  No     Unix TTY, Interact with Established Connection
+   323  windows/adduser                                                      normal  No     Windows Execute net user /ADD
+   324  windows/dllinject/bind_hidden_ipknock_tcp                            normal  No     Reflective DLL Injection, Hidden Bind Ipknock TCP Stager
+   325  windows/dllinject/bind_hidden_tcp                                    normal  No     Reflective DLL Injection, Hidden Bind TCP Stager
+   326  windows/dllinject/bind_ipv6_tcp                                      normal  No     Reflective DLL Injection, Bind IPv6 TCP Stager (Windows x86)
+   327  windows/dllinject/bind_ipv6_tcp_uuid                                 normal  No     Reflective DLL Injection, Bind IPv6 TCP Stager with UUID Support (Windows x86)
+   328  windows/dllinject/bind_named_pipe                                    normal  No     Reflective DLL Injection, Windows x86 Bind Named Pipe Stager
+   329  windows/dllinject/bind_nonx_tcp                                      normal  No     Reflective DLL Injection, Bind TCP Stager (No NX or Win7)
+   330  windows/dllinject/bind_tcp                                           normal  No     Reflective DLL Injection, Bind TCP Stager (Windows x86)
+   331  windows/dllinject/bind_tcp_rc4                                       normal  No     Reflective DLL Injection, Bind TCP Stager (RC4 Stage Encryption, Metasm)
+   332  windows/dllinject/bind_tcp_uuid                                      normal  No     Reflective DLL Injection, Bind TCP Stager with UUID Support (Windows x86)
+   333  windows/dllinject/find_tag                                           normal  No     Reflective DLL Injection, Find Tag Ordinal Stager
+   334  windows/dllinject/reverse_hop_http                                   normal  No     Reflective DLL Injection, Reverse Hop HTTP/HTTPS Stager
+   335  windows/dllinject/reverse_http                                       normal  No     Reflective DLL Injection, Windows Reverse HTTP Stager (wininet)
+   336  windows/dllinject/reverse_http_proxy_pstore                          normal  No     Reflective DLL Injection, Reverse HTTP Stager Proxy
+   337  windows/dllinject/reverse_ipv6_tcp                                   normal  No     Reflective DLL Injection, Reverse TCP Stager (IPv6)
+   338  windows/dllinject/reverse_nonx_tcp                                   normal  No     Reflective DLL Injection, Reverse TCP Stager (No NX or Win7)
+   339  windows/dllinject/reverse_ord_tcp                                    normal  No     Reflective DLL Injection, Reverse Ordinal TCP Stager (No NX or Win7)
+   340  windows/dllinject/reverse_tcp                                        normal  No     Reflective DLL Injection, Reverse TCP Stager
+   341  windows/dllinject/reverse_tcp_allports                               normal  No     Reflective DLL Injection, Reverse All-Port TCP Stager
+   342  windows/dllinject/reverse_tcp_dns                                    normal  No     Reflective DLL Injection, Reverse TCP Stager (DNS)
+   343  windows/dllinject/reverse_tcp_rc4                                    normal  No     Reflective DLL Injection, Reverse TCP Stager (RC4 Stage Encryption, Metasm)
+   344  windows/dllinject/reverse_tcp_rc4_dns                                normal  No     Reflective DLL Injection, Reverse TCP Stager (RC4 Stage Encryption DNS, Metasm)
+   345  windows/dllinject/reverse_tcp_uuid                                   normal  No     Reflective DLL Injection, Reverse TCP Stager with UUID Support
+   346  windows/dllinject/reverse_udp                                        normal  No     Reflective DLL Injection, Reverse UDP Stager with UUID Support
+   347  windows/dllinject/reverse_winhttp                                    normal  No     Reflective DLL Injection, Windows Reverse HTTP Stager (winhttp)
+   348  windows/dns_txt_query_exec                                           normal  No     DNS TXT Record Payload Download and Execution
+   349  windows/download_exec                                                normal  No     Windows Executable Download (http,https,ftp) and Execute
+   350  windows/exec                                                         normal  No     Windows Execute Command
+   351  windows/format_all_drives                                            manual  No     Windows Drive Formatter
+   352  windows/loadlibrary                                                  normal  No     Windows LoadLibrary Path
+   353  windows/messagebox                                                   normal  No     Windows MessageBox
+   354  windows/meterpreter/bind_hidden_ipknock_tcp                          normal  No     Windows Meterpreter (Reflective Injection), Hidden Bind Ipknock TCP Stager
+   355  windows/meterpreter/bind_hidden_tcp                                  normal  No     Windows Meterpreter (Reflective Injection), Hidden Bind TCP Stager
+   356  windows/meterpreter/bind_ipv6_tcp                                    normal  No     Windows Meterpreter (Reflective Injection), Bind IPv6 TCP Stager (Windows x86)
+   357  windows/meterpreter/bind_ipv6_tcp_uuid                               normal  No     Windows Meterpreter (Reflective Injection), Bind IPv6 TCP Stager with UUID Support (Windows x86)
+   358  windows/meterpreter/bind_named_pipe                                  normal  No     Windows Meterpreter (Reflective Injection), Windows x86 Bind Named Pipe Stager
+   359  windows/meterpreter/bind_nonx_tcp                                    normal  No     Windows Meterpreter (Reflective Injection), Bind TCP Stager (No NX or Win7)
+   360  windows/meterpreter/bind_tcp                                         normal  No     Windows Meterpreter (Reflective Injection), Bind TCP Stager (Windows x86)
+   361  windows/meterpreter/bind_tcp_rc4                                     normal  No     Windows Meterpreter (Reflective Injection), Bind TCP Stager (RC4 Stage Encryption, Metasm)
+   362  windows/meterpreter/bind_tcp_uuid                                    normal  No     Windows Meterpreter (Reflective Injection), Bind TCP Stager with UUID Support (Windows x86)
+   363  windows/meterpreter/find_tag                                         normal  No     Windows Meterpreter (Reflective Injection), Find Tag Ordinal Stager
+   364  windows/meterpreter/reverse_hop_http                                 normal  No     Windows Meterpreter (Reflective Injection), Reverse Hop HTTP/HTTPS Stager
+   365  windows/meterpreter/reverse_http                                     normal  No     Windows Meterpreter (Reflective Injection), Windows Reverse HTTP Stager (wininet)
+   366  windows/meterpreter/reverse_http_proxy_pstore                        normal  No     Windows Meterpreter (Reflective Injection), Reverse HTTP Stager Proxy
+   367  windows/meterpreter/reverse_https                                    normal  No     Windows Meterpreter (Reflective Injection), Windows Reverse HTTPS Stager (wininet)
+   368  windows/meterpreter/reverse_https_proxy                              normal  No     Windows Meterpreter (Reflective Injection), Reverse HTTPS Stager with Support for Custom Proxy
+   369  windows/meterpreter/reverse_ipv6_tcp                                 normal  No     Windows Meterpreter (Reflective Injection), Reverse TCP Stager (IPv6)
+   370  windows/meterpreter/reverse_named_pipe                               normal  No     Windows Meterpreter (Reflective Injection), Windows x86 Reverse Named Pipe (SMB) Stager
+   371  windows/meterpreter/reverse_nonx_tcp                                 normal  No     Windows Meterpreter (Reflective Injection), Reverse TCP Stager (No NX or Win7)
+   372  windows/meterpreter/reverse_ord_tcp                                  normal  No     Windows Meterpreter (Reflective Injection), Reverse Ordinal TCP Stager (No NX or Win7)
+   373  windows/meterpreter/reverse_tcp                                      normal  No     Windows Meterpreter (Reflective Injection), Reverse TCP Stager
+   374  windows/meterpreter/reverse_tcp_allports                             normal  No     Windows Meterpreter (Reflective Injection), Reverse All-Port TCP Stager
+   375  windows/meterpreter/reverse_tcp_dns                                  normal  No     Windows Meterpreter (Reflective Injection), Reverse TCP Stager (DNS)
+   376  windows/meterpreter/reverse_tcp_rc4                                  normal  No     Windows Meterpreter (Reflective Injection), Reverse TCP Stager (RC4 Stage Encryption, Metasm)
+   377  windows/meterpreter/reverse_tcp_rc4_dns                              normal  No     Windows Meterpreter (Reflective Injection), Reverse TCP Stager (RC4 Stage Encryption DNS, Metasm)
+   378  windows/meterpreter/reverse_tcp_uuid                                 normal  No     Windows Meterpreter (Reflective Injection), Reverse TCP Stager with UUID Support
+   379  windows/meterpreter/reverse_udp                                      normal  No     Windows Meterpreter (Reflective Injection), Reverse UDP Stager with UUID Support
+   380  windows/meterpreter/reverse_winhttp                                  normal  No     Windows Meterpreter (Reflective Injection), Windows Reverse HTTP Stager (winhttp)
+   381  windows/meterpreter/reverse_winhttps                                 normal  No     Windows Meterpreter (Reflective Injection), Windows Reverse HTTPS Stager (winhttp)
+   382  windows/meterpreter_bind_named_pipe                                  normal  No     Windows Meterpreter Shell, Bind Named Pipe Inline
+   383  windows/meterpreter_bind_tcp                                         normal  No     Windows Meterpreter Shell, Bind TCP Inline
+   384  windows/meterpreter_reverse_http                                     normal  No     Windows Meterpreter Shell, Reverse HTTP Inline
+   385  windows/meterpreter_reverse_https                                    normal  No     Windows Meterpreter Shell, Reverse HTTPS Inline
+   386  windows/meterpreter_reverse_ipv6_tcp                                 normal  No     Windows Meterpreter Shell, Reverse TCP Inline (IPv6)
+   387  windows/meterpreter_reverse_tcp                                      normal  No     Windows Meterpreter Shell, Reverse TCP Inline
+   388  windows/metsvc_bind_tcp                                              normal  No     Windows Meterpreter Service, Bind TCP
+   389  windows/metsvc_reverse_tcp                                           normal  No     Windows Meterpreter Service, Reverse TCP Inline
+   390  windows/patchupdllinject/bind_hidden_ipknock_tcp                     normal  No     Windows Inject DLL, Hidden Bind Ipknock TCP Stager
+   391  windows/patchupdllinject/bind_hidden_tcp                             normal  No     Windows Inject DLL, Hidden Bind TCP Stager
+   392  windows/patchupdllinject/bind_ipv6_tcp                               normal  No     Windows Inject DLL, Bind IPv6 TCP Stager (Windows x86)
+   393  windows/patchupdllinject/bind_ipv6_tcp_uuid                          normal  No     Windows Inject DLL, Bind IPv6 TCP Stager with UUID Support (Windows x86)
+   394  windows/patchupdllinject/bind_named_pipe                             normal  No     Windows Inject DLL, Windows x86 Bind Named Pipe Stager
+   395  windows/patchupdllinject/bind_nonx_tcp                               normal  No     Windows Inject DLL, Bind TCP Stager (No NX or Win7)
+   396  windows/patchupdllinject/bind_tcp                                    normal  No     Windows Inject DLL, Bind TCP Stager (Windows x86)
+   397  windows/patchupdllinject/bind_tcp_rc4                                normal  No     Windows Inject DLL, Bind TCP Stager (RC4 Stage Encryption, Metasm)
+   398  windows/patchupdllinject/bind_tcp_uuid                               normal  No     Windows Inject DLL, Bind TCP Stager with UUID Support (Windows x86)
+   399  windows/patchupdllinject/find_tag                                    normal  No     Windows Inject DLL, Find Tag Ordinal Stager
+   400  windows/patchupdllinject/reverse_ipv6_tcp                            normal  No     Windows Inject DLL, Reverse TCP Stager (IPv6)
+   401  windows/patchupdllinject/reverse_nonx_tcp                            normal  No     Windows Inject DLL, Reverse TCP Stager (No NX or Win7)
+   402  windows/patchupdllinject/reverse_ord_tcp                             normal  No     Windows Inject DLL, Reverse Ordinal TCP Stager (No NX or Win7)
+   403  windows/patchupdllinject/reverse_tcp                                 normal  No     Windows Inject DLL, Reverse TCP Stager
+   404  windows/patchupdllinject/reverse_tcp_allports                        normal  No     Windows Inject DLL, Reverse All-Port TCP Stager
+   405  windows/patchupdllinject/reverse_tcp_dns                             normal  No     Windows Inject DLL, Reverse TCP Stager (DNS)
+   406  windows/patchupdllinject/reverse_tcp_rc4                             normal  No     Windows Inject DLL, Reverse TCP Stager (RC4 Stage Encryption, Metasm)
+   407  windows/patchupdllinject/reverse_tcp_rc4_dns                         normal  No     Windows Inject DLL, Reverse TCP Stager (RC4 Stage Encryption DNS, Metasm)
+   408  windows/patchupdllinject/reverse_tcp_uuid                            normal  No     Windows Inject DLL, Reverse TCP Stager with UUID Support
+   409  windows/patchupdllinject/reverse_udp                                 normal  No     Windows Inject DLL, Reverse UDP Stager with UUID Support
+   410  windows/patchupmeterpreter/bind_hidden_ipknock_tcp                   normal  No     Windows Meterpreter (skape/jt Injection), Hidden Bind Ipknock TCP Stager
+   411  windows/patchupmeterpreter/bind_hidden_tcp                           normal  No     Windows Meterpreter (skape/jt Injection), Hidden Bind TCP Stager
+   412  windows/patchupmeterpreter/bind_ipv6_tcp                             normal  No     Windows Meterpreter (skape/jt Injection), Bind IPv6 TCP Stager (Windows x86)
+   413  windows/patchupmeterpreter/bind_ipv6_tcp_uuid                        normal  No     Windows Meterpreter (skape/jt Injection), Bind IPv6 TCP Stager with UUID Support (Windows x86)
+   414  windows/patchupmeterpreter/bind_named_pipe                           normal  No     Windows Meterpreter (skape/jt Injection), Windows x86 Bind Named Pipe Stager
+   415  windows/patchupmeterpreter/bind_nonx_tcp                             normal  No     Windows Meterpreter (skape/jt Injection), Bind TCP Stager (No NX or Win7)
+   416  windows/patchupmeterpreter/bind_tcp                                  normal  No     Windows Meterpreter (skape/jt Injection), Bind TCP Stager (Windows x86)
+   417  windows/patchupmeterpreter/bind_tcp_rc4                              normal  No     Windows Meterpreter (skape/jt Injection), Bind TCP Stager (RC4 Stage Encryption, Metasm)
+   418  windows/patchupmeterpreter/bind_tcp_uuid                             normal  No     Windows Meterpreter (skape/jt Injection), Bind TCP Stager with UUID Support (Windows x86)
+   419  windows/patchupmeterpreter/find_tag                                  normal  No     Windows Meterpreter (skape/jt Injection), Find Tag Ordinal Stager
+   420  windows/patchupmeterpreter/reverse_ipv6_tcp                          normal  No     Windows Meterpreter (skape/jt Injection), Reverse TCP Stager (IPv6)
+   421  windows/patchupmeterpreter/reverse_nonx_tcp                          normal  No     Windows Meterpreter (skape/jt Injection), Reverse TCP Stager (No NX or Win7)
+   422  windows/patchupmeterpreter/reverse_ord_tcp                           normal  No     Windows Meterpreter (skape/jt Injection), Reverse Ordinal TCP Stager (No NX or Win7)
+   423  windows/patchupmeterpreter/reverse_tcp                               normal  No     Windows Meterpreter (skape/jt Injection), Reverse TCP Stager
+   424  windows/patchupmeterpreter/reverse_tcp_allports                      normal  No     Windows Meterpreter (skape/jt Injection), Reverse All-Port TCP Stager
+   425  windows/patchupmeterpreter/reverse_tcp_dns                           normal  No     Windows Meterpreter (skape/jt Injection), Reverse TCP Stager (DNS)
+   426  windows/patchupmeterpreter/reverse_tcp_rc4                           normal  No     Windows Meterpreter (skape/jt Injection), Reverse TCP Stager (RC4 Stage Encryption, Metasm)
+   427  windows/patchupmeterpreter/reverse_tcp_rc4_dns                       normal  No     Windows Meterpreter (skape/jt Injection), Reverse TCP Stager (RC4 Stage Encryption DNS, Metasm)
+   428  windows/patchupmeterpreter/reverse_tcp_uuid                          normal  No     Windows Meterpreter (skape/jt Injection), Reverse TCP Stager with UUID Support
+   429  windows/patchupmeterpreter/reverse_udp                               normal  No     Windows Meterpreter (skape/jt Injection), Reverse UDP Stager with UUID Support
+   430  windows/powershell_bind_tcp                                          normal  No     Windows Interactive Powershell Session, Bind TCP
+   431  windows/powershell_reverse_tcp                                       normal  No     Windows Interactive Powershell Session, Reverse TCP
+   432  windows/shell/bind_hidden_ipknock_tcp                                normal  No     Windows Command Shell, Hidden Bind Ipknock TCP Stager
+   433  windows/shell/bind_hidden_tcp                                        normal  No     Windows Command Shell, Hidden Bind TCP Stager
+   434  windows/shell/bind_ipv6_tcp                                          normal  No     Windows Command Shell, Bind IPv6 TCP Stager (Windows x86)
+   435  windows/shell/bind_ipv6_tcp_uuid                                     normal  No     Windows Command Shell, Bind IPv6 TCP Stager with UUID Support (Windows x86)
+   436  windows/shell/bind_named_pipe                                        normal  No     Windows Command Shell, Windows x86 Bind Named Pipe Stager
+   437  windows/shell/bind_nonx_tcp                                          normal  No     Windows Command Shell, Bind TCP Stager (No NX or Win7)
+   438  windows/shell/bind_tcp                                               normal  No     Windows Command Shell, Bind TCP Stager (Windows x86)
+   439  windows/shell/bind_tcp_rc4                                           normal  No     Windows Command Shell, Bind TCP Stager (RC4 Stage Encryption, Metasm)
+   440  windows/shell/bind_tcp_uuid                                          normal  No     Windows Command Shell, Bind TCP Stager with UUID Support (Windows x86)
+   441  windows/shell/find_tag                                               normal  No     Windows Command Shell, Find Tag Ordinal Stager
+   442  windows/shell/reverse_ipv6_tcp                                       normal  No     Windows Command Shell, Reverse TCP Stager (IPv6)
+   443  windows/shell/reverse_nonx_tcp                                       normal  No     Windows Command Shell, Reverse TCP Stager (No NX or Win7)
+   444  windows/shell/reverse_ord_tcp                                        normal  No     Windows Command Shell, Reverse Ordinal TCP Stager (No NX or Win7)
+   445  windows/shell/reverse_tcp                                            normal  No     Windows Command Shell, Reverse TCP Stager
+   446  windows/shell/reverse_tcp_allports                                   normal  No     Windows Command Shell, Reverse All-Port TCP Stager
+   447  windows/shell/reverse_tcp_dns                                        normal  No     Windows Command Shell, Reverse TCP Stager (DNS)
+   448  windows/shell/reverse_tcp_rc4                                        normal  No     Windows Command Shell, Reverse TCP Stager (RC4 Stage Encryption, Metasm)
+   449  windows/shell/reverse_tcp_rc4_dns                                    normal  No     Windows Command Shell, Reverse TCP Stager (RC4 Stage Encryption DNS, Metasm)
+   450  windows/shell/reverse_tcp_uuid                                       normal  No     Windows Command Shell, Reverse TCP Stager with UUID Support
+   451  windows/shell/reverse_udp                                            normal  No     Windows Command Shell, Reverse UDP Stager with UUID Support
+   452  windows/shell_bind_tcp                                               normal  No     Windows Command Shell, Bind TCP Inline
+   453  windows/shell_bind_tcp_xpfw                                          normal  No     Windows Disable Windows ICF, Command Shell, Bind TCP Inline
+   454  windows/shell_hidden_bind_tcp                                        normal  No     Windows Command Shell, Hidden Bind TCP Inline
+   455  windows/shell_reverse_tcp                                            normal  No     Windows Command Shell, Reverse TCP Inline
+   456  windows/speak_pwned                                                  normal  No     Windows Speech API - Say "You Got Pwned!"
+   457  windows/upexec/bind_hidden_ipknock_tcp                               normal  No     Windows Upload/Execute, Hidden Bind Ipknock TCP Stager
+   458  windows/upexec/bind_hidden_tcp                                       normal  No     Windows Upload/Execute, Hidden Bind TCP Stager
+   459  windows/upexec/bind_ipv6_tcp                                         normal  No     Windows Upload/Execute, Bind IPv6 TCP Stager (Windows x86)
+   460  windows/upexec/bind_ipv6_tcp_uuid                                    normal  No     Windows Upload/Execute, Bind IPv6 TCP Stager with UUID Support (Windows x86)
+   461  windows/upexec/bind_named_pipe                                       normal  No     Windows Upload/Execute, Windows x86 Bind Named Pipe Stager
+   462  windows/upexec/bind_nonx_tcp                                         normal  No     Windows Upload/Execute, Bind TCP Stager (No NX or Win7)
+   463  windows/upexec/bind_tcp                                              normal  No     Windows Upload/Execute, Bind TCP Stager (Windows x86)
+   464  windows/upexec/bind_tcp_rc4                                          normal  No     Windows Upload/Execute, Bind TCP Stager (RC4 Stage Encryption, Metasm)
+   465  windows/upexec/bind_tcp_uuid                                         normal  No     Windows Upload/Execute, Bind TCP Stager with UUID Support (Windows x86)
+   466  windows/upexec/find_tag                                              normal  No     Windows Upload/Execute, Find Tag Ordinal Stager
+   467  windows/upexec/reverse_ipv6_tcp                                      normal  No     Windows Upload/Execute, Reverse TCP Stager (IPv6)
+   468  windows/upexec/reverse_nonx_tcp                                      normal  No     Windows Upload/Execute, Reverse TCP Stager (No NX or Win7)
+   469  windows/upexec/reverse_ord_tcp                                       normal  No     Windows Upload/Execute, Reverse Ordinal TCP Stager (No NX or Win7)
+   470  windows/upexec/reverse_tcp                                           normal  No     Windows Upload/Execute, Reverse TCP Stager
+   471  windows/upexec/reverse_tcp_allports                                  normal  No     Windows Upload/Execute, Reverse All-Port TCP Stager
+   472  windows/upexec/reverse_tcp_dns                                       normal  No     Windows Upload/Execute, Reverse TCP Stager (DNS)
+   473  windows/upexec/reverse_tcp_rc4                                       normal  No     Windows Upload/Execute, Reverse TCP Stager (RC4 Stage Encryption, Metasm)
+   474  windows/upexec/reverse_tcp_rc4_dns                                   normal  No     Windows Upload/Execute, Reverse TCP Stager (RC4 Stage Encryption DNS, Metasm)
+   475  windows/upexec/reverse_tcp_uuid                                      normal  No     Windows Upload/Execute, Reverse TCP Stager with UUID Support
+   476  windows/upexec/reverse_udp                                           normal  No     Windows Upload/Execute, Reverse UDP Stager with UUID Support
+   477  windows/vncinject/bind_hidden_ipknock_tcp                            normal  No     VNC Server (Reflective Injection), Hidden Bind Ipknock TCP Stager
+   478  windows/vncinject/bind_hidden_tcp                                    normal  No     VNC Server (Reflective Injection), Hidden Bind TCP Stager
+   479  windows/vncinject/bind_ipv6_tcp                                      normal  No     VNC Server (Reflective Injection), Bind IPv6 TCP Stager (Windows x86)
+   480  windows/vncinject/bind_ipv6_tcp_uuid                                 normal  No     VNC Server (Reflective Injection), Bind IPv6 TCP Stager with UUID Support (Windows x86)
+   481  windows/vncinject/bind_named_pipe                                    normal  No     VNC Server (Reflective Injection), Windows x86 Bind Named Pipe Stager
+   482  windows/vncinject/bind_nonx_tcp                                      normal  No     VNC Server (Reflective Injection), Bind TCP Stager (No NX or Win7)
+   483  windows/vncinject/bind_tcp                                           normal  No     VNC Server (Reflective Injection), Bind TCP Stager (Windows x86)
+   484  windows/vncinject/bind_tcp_rc4                                       normal  No     VNC Server (Reflective Injection), Bind TCP Stager (RC4 Stage Encryption, Metasm)
+   485  windows/vncinject/bind_tcp_uuid                                      normal  No     VNC Server (Reflective Injection), Bind TCP Stager with UUID Support (Windows x86)
+   486  windows/vncinject/find_tag                                           normal  No     VNC Server (Reflective Injection), Find Tag Ordinal Stager
+   487  windows/vncinject/reverse_hop_http                                   normal  No     VNC Server (Reflective Injection), Reverse Hop HTTP/HTTPS Stager
+   488  windows/vncinject/reverse_http                                       normal  No     VNC Server (Reflective Injection), Windows Reverse HTTP Stager (wininet)
+   489  windows/vncinject/reverse_http_proxy_pstore                          normal  No     VNC Server (Reflective Injection), Reverse HTTP Stager Proxy
+   490  windows/vncinject/reverse_ipv6_tcp                                   normal  No     VNC Server (Reflective Injection), Reverse TCP Stager (IPv6)
+   491  windows/vncinject/reverse_nonx_tcp                                   normal  No     VNC Server (Reflective Injection), Reverse TCP Stager (No NX or Win7)
+   492  windows/vncinject/reverse_ord_tcp                                    normal  No     VNC Server (Reflective Injection), Reverse Ordinal TCP Stager (No NX or Win7)
+   493  windows/vncinject/reverse_tcp                                        normal  No     VNC Server (Reflective Injection), Reverse TCP Stager
+   494  windows/vncinject/reverse_tcp_allports                               normal  No     VNC Server (Reflective Injection), Reverse All-Port TCP Stager
+   495  windows/vncinject/reverse_tcp_dns                                    normal  No     VNC Server (Reflective Injection), Reverse TCP Stager (DNS)
+   496  windows/vncinject/reverse_tcp_rc4                                    normal  No     VNC Server (Reflective Injection), Reverse TCP Stager (RC4 Stage Encryption, Metasm)
+   497  windows/vncinject/reverse_tcp_rc4_dns                                normal  No     VNC Server (Reflective Injection), Reverse TCP Stager (RC4 Stage Encryption DNS, Metasm)
+   498  windows/vncinject/reverse_tcp_uuid                                   normal  No     VNC Server (Reflective Injection), Reverse TCP Stager with UUID Support
+   499  windows/vncinject/reverse_udp                                        normal  No     VNC Server (Reflective Injection), Reverse UDP Stager with UUID Support
+   500  windows/vncinject/reverse_winhttp                                    normal  No     VNC Server (Reflective Injection), Windows Reverse HTTP Stager (winhttp)
+   501  windows/x64/exec                                                     normal  No     Windows x64 Execute Command
+   502  windows/x64/loadlibrary                                              normal  No     Windows x64 LoadLibrary Path
+   503  windows/x64/messagebox                                               normal  No     Windows MessageBox x64
+   504  windows/x64/meterpreter/bind_ipv6_tcp                                normal  No     Windows Meterpreter (Reflective Injection x64), Windows x64 IPv6 Bind TCP Stager
+   505  windows/x64/meterpreter/bind_ipv6_tcp_uuid                           normal  No     Windows Meterpreter (Reflective Injection x64), Windows x64 IPv6 Bind TCP Stager with UUID Support
+   506  windows/x64/meterpreter/bind_named_pipe                              normal  No     Windows Meterpreter (Reflective Injection x64), Windows x64 Bind Named Pipe Stager
+   507  windows/x64/meterpreter/bind_tcp                                     normal  No     Windows Meterpreter (Reflective Injection x64), Windows x64 Bind TCP Stager
+   508  windows/x64/meterpreter/bind_tcp_uuid                                normal  No     Windows Meterpreter (Reflective Injection x64), Bind TCP Stager with UUID Support (Windows x64)
+   509  windows/x64/meterpreter/reverse_http                                 normal  No     Windows Meterpreter (Reflective Injection x64), Windows x64 Reverse HTTP Stager (wininet)
+   510  windows/x64/meterpreter/reverse_https                                normal  No     Windows Meterpreter (Reflective Injection x64), Windows x64 Reverse HTTP Stager (wininet)
+   511  windows/x64/meterpreter/reverse_named_pipe                           normal  No     Windows Meterpreter (Reflective Injection x64), Windows x64 Reverse Named Pipe (SMB) Stager
+   512  windows/x64/meterpreter/reverse_tcp                                  normal  No     Windows Meterpreter (Reflective Injection x64), Windows x64 Reverse TCP Stager
+   513  windows/x64/meterpreter/reverse_tcp_rc4                              normal  No     Windows Meterpreter (Reflective Injection x64), Reverse TCP Stager (RC4 Stage Encryption, Metasm)
+   514  windows/x64/meterpreter/reverse_tcp_uuid                             normal  No     Windows Meterpreter (Reflective Injection x64), Reverse TCP Stager with UUID Support (Windows x64)
+   515  windows/x64/meterpreter/reverse_winhttp                              normal  No     Windows Meterpreter (Reflective Injection x64), Windows x64 Reverse HTTP Stager (winhttp)
+   516  windows/x64/meterpreter/reverse_winhttps                             normal  No     Windows Meterpreter (Reflective Injection x64), Windows x64 Reverse HTTPS Stager (winhttp)
+   517  windows/x64/meterpreter_bind_named_pipe                              normal  No     Windows Meterpreter Shell, Bind Named Pipe Inline (x64)
+   518  windows/x64/meterpreter_bind_tcp                                     normal  No     Windows Meterpreter Shell, Bind TCP Inline (x64)
+   519  windows/x64/meterpreter_reverse_http                                 normal  No     Windows Meterpreter Shell, Reverse HTTP Inline (x64)
+   520  windows/x64/meterpreter_reverse_https                                normal  No     Windows Meterpreter Shell, Reverse HTTPS Inline (x64)
+   521  windows/x64/meterpreter_reverse_ipv6_tcp                             normal  No     Windows Meterpreter Shell, Reverse TCP Inline (IPv6) (x64)
+   522  windows/x64/meterpreter_reverse_tcp                                  normal  No     Windows Meterpreter Shell, Reverse TCP Inline x64
+   523  windows/x64/powershell_bind_tcp                                      normal  No     Windows Interactive Powershell Session, Bind TCP
+   524  windows/x64/powershell_reverse_tcp                                   normal  No     Windows Interactive Powershell Session, Reverse TCP
+   525  windows/x64/shell/bind_ipv6_tcp                                      normal  No     Windows x64 Command Shell, Windows x64 IPv6 Bind TCP Stager
+   526  windows/x64/shell/bind_ipv6_tcp_uuid                                 normal  No     Windows x64 Command Shell, Windows x64 IPv6 Bind TCP Stager with UUID Support
+   527  windows/x64/shell/bind_named_pipe                                    normal  No     Windows x64 Command Shell, Windows x64 Bind Named Pipe Stager
+   528  windows/x64/shell/bind_tcp                                           normal  No     Windows x64 Command Shell, Windows x64 Bind TCP Stager
+   529  windows/x64/shell/bind_tcp_uuid                                      normal  No     Windows x64 Command Shell, Bind TCP Stager with UUID Support (Windows x64)
+   530  windows/x64/shell/reverse_tcp                                        normal  No     Windows x64 Command Shell, Windows x64 Reverse TCP Stager
+   531  windows/x64/shell/reverse_tcp_rc4                                    normal  No     Windows x64 Command Shell, Reverse TCP Stager (RC4 Stage Encryption, Metasm)
+   532  windows/x64/shell/reverse_tcp_uuid                                   normal  No     Windows x64 Command Shell, Reverse TCP Stager with UUID Support (Windows x64)
+   533  windows/x64/shell_bind_tcp                                           normal  No     Windows x64 Command Shell, Bind TCP Inline
+   534  windows/x64/shell_reverse_tcp                                        normal  No     Windows x64 Command Shell, Reverse TCP Inline
+   535  windows/x64/vncinject/bind_ipv6_tcp                                  normal  No     Windows x64 VNC Server (Reflective Injection), Windows x64 IPv6 Bind TCP Stager
+   536  windows/x64/vncinject/bind_ipv6_tcp_uuid                             normal  No     Windows x64 VNC Server (Reflective Injection), Windows x64 IPv6 Bind TCP Stager with UUID Support
+   537  windows/x64/vncinject/bind_named_pipe                                normal  No     Windows x64 VNC Server (Reflective Injection), Windows x64 Bind Named Pipe Stager
+   538  windows/x64/vncinject/bind_tcp                                       normal  No     Windows x64 VNC Server (Reflective Injection), Windows x64 Bind TCP Stager
+   539  windows/x64/vncinject/bind_tcp_uuid                                  normal  No     Windows x64 VNC Server (Reflective Injection), Bind TCP Stager with UUID Support (Windows x64)
+   540  windows/x64/vncinject/reverse_http                                   normal  No     Windows x64 VNC Server (Reflective Injection), Windows x64 Reverse HTTP Stager (wininet)
+   541  windows/x64/vncinject/reverse_https                                  normal  No     Windows x64 VNC Server (Reflective Injection), Windows x64 Reverse HTTP Stager (wininet)
+   542  windows/x64/vncinject/reverse_tcp                                    normal  No     Windows x64 VNC Server (Reflective Injection), Windows x64 Reverse TCP Stager
+   543  windows/x64/vncinject/reverse_tcp_rc4                                normal  No     Windows x64 VNC Server (Reflective Injection), Reverse TCP Stager (RC4 Stage Encryption, Metasm)
+   544  windows/x64/vncinject/reverse_tcp_uuid                               normal  No     Windows x64 VNC Server (Reflective Injection), Reverse TCP Stager with UUID Support (Windows x64)
+   545  windows/x64/vncinject/reverse_winhttp                                normal  No     Windows x64 VNC Server (Reflective Injection), Windows x64 Reverse HTTP Stager (winhttp)
+   546  windows/x64/vncinject/reverse_winhttps                               normal  No     Windows x64 VNC Server (Reflective Injection), Windows x64 Reverse HTTPS Stager (winhttp)
+
+
