@@ -53,4 +53,4 @@ this is where i will try to put the most recent updates
 
 * added python and php payload maker
 
-* added a foxhis options (firefox history gather)
+* added a foxhis option (firefox history gather)
