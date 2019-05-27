@@ -49,14 +49,8 @@ this is where i will try to put the most recent updates
 
 
 
-
-* everytime you run the script it will switch randomly between different banners
-
-* added banner option (same thing as clear option just people might not know that clear randomizes the banner)
-also added more banners
-
-* added a phpload option
-
 * added a update file
 
 * added python and php payload maker
+
+* added a foxhis options (firefox history gather)
