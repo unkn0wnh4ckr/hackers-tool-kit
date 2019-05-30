@@ -10,7 +10,7 @@ print "\n"
 print "\033[92mWould you like to continue?     y or n\033[0m"
 h = raw_input("?: ")
 if h == "n":
-	print "follow \033[92m@unkn0wn_bali\033[0m on instagram"
+	print "follow \033[92m@tuf_unkn0wn\033[0m on instagram"
 	sys.exit()
 if h == "y":
 	print "\033[93m------------------------\033[0m"
