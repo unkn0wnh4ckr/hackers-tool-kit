@@ -56,3 +56,5 @@ this is where i will try to put the most recent updates
 * added a foxhis option (firefox history gather)
 
 * added the RED_HAWK tool (rhawk option)
+
+* added a option to compile c files (compilec option)
