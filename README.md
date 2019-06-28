@@ -48,13 +48,4 @@ the htksecure.py file will run the hackers-tool-kit with proxychains and other t
 this is where i will try to put the most recent updates
 
 
-
-* added a update file
-
-* added python and php payload maker
-
-* added a foxhis option (firefox history gather)
-
-* added the RED_HAWK tool (rhawk option)
-
 * added a option to compile c files (compilec option)
