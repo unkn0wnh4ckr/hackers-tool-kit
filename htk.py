@@ -1002,7 +1002,7 @@ def insta():
 	jl = raw_input("WORDLIST> ")
 	print "\033[1m\033[33m\nMODES>: [0] fastest, [1] fast, [2] slow, [3] slowest\033[0m\n"
 	k = raw_input("MODE> ")
-	ma = 'python3 /root/hackers-tool-kit/tools/Instagram/instagram.py {0} {1} {2}'.format(insta,jl,k)
+	ma = 'python3 /root/hackers-tool-kit/tools/Instagram/instagram.py {0} {1} -m {2}'.format(insta,jl,k)
 	os.system(ma)
 #------------------------#
 #INSTAGRAM BRUTEFORCE END#
