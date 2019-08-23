@@ -9,6 +9,7 @@ def install():
 	os.system("apt install macchanger -y")
 	os.system("apt install wafw00f -y")
 	os.system("apt install medusa -y")
+	os.system("cd /root/hackers-tool-kit/tools && git clone https://github.com/Pure-L0G1C/Instagram")
 	os.system("cd /root && git clone https://github.com/thelinuxchoice/shellphish")
 	os.system("cd /root && git clone https://github.com/1N3/BruteX")
 	os.system("cd /root/BruteX && ./install.sh")
