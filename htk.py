@@ -2,7 +2,7 @@
 # coding: latin-1
 #if you use this code give me credit @tuf_unkn0wn
 #i do not give you permission to show / edit this script without my credit
-#to ask questions or report a problem message me on instagram @unkn0wn_bali
+#to ask questions or report a problem message me on instagram @tuf_unkn0wn
 """
 
 
@@ -1000,8 +1000,9 @@ def port():
 def insta():
 	insta = raw_input("USERNAME> ")
 	jl = raw_input("WORDLIST> ")
-	k = raw_input("THREADS> ")
-	ma = 'python /root/hackers-tool-kit/tools/instagram.py {0} {1} {2}'.format(insta,jl,k)
+	print "\033[1m\033[33m\nMODES>: [0] fastest, [1] fast, [2] slow, [3] slowest\033[0m\n"
+	k = raw_input("MODE> ")
+	ma = 'python3 /root/hackers-tool-kit/tools/Instagram/instagram.py {0} {1} {2}'.format(insta,jl,k)
 	os.system(ma)
 #------------------------#
 #INSTAGRAM BRUTEFORCE END#
