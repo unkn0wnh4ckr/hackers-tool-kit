@@ -1,7 +1,5 @@
 # hackers-tool-kit
-Its a framework filled with alot of options and hacking tools you use directly in the script
-from brute forcing to payload making im still adding more stuff to see updates check on 
-my instagram @tuf_unkn0wn
+Its a framework filled with alot of options and hacking tools you use directly in the script from brute forcing to payload making im still adding more stuff i now have another tool out called htkl-lite its hackers-tool-kit just not as big and messy to see updates check on my instagram @tuf_unkn0wn
 
 ![](tools/screenshot1.png)
 
