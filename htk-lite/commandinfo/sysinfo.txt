@@ -1,0 +1,3 @@
+SYSINFO:
+
+shows information about your device uname, public ip, os, etc

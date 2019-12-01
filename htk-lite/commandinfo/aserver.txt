@@ -1,0 +1,3 @@
+ASERVER:
+
+start a apache server on your local host and open it up on a browser

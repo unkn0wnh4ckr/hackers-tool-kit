@@ -1,0 +1,3 @@
+MONITOR:
+
+turn monitor mode on and off with airmon-ng

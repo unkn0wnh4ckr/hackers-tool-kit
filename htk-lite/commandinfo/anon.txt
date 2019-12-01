@@ -1,0 +1,3 @@
+ANON:
+
+make yourself anonymous with proxychains and macchanger

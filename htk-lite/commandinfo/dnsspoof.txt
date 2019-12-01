@@ -1,0 +1,5 @@
+DNSSPOOF:
+
+Start DNS Spoofing with bettercap to 
+dns spoof the whole subnet instead of 
+selecting a target type [dnsspoof --all] 
