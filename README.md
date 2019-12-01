@@ -46,4 +46,7 @@ the htksecure.py file will run the hackers-tool-kit with proxychains and other t
 this is where i will try to put the most recent updates
 
 
-* added a option to compile c files (compilec option)
+* added a htk-lite option which runs my htk-lite tool
+
+
+* added a dns spoofing option
