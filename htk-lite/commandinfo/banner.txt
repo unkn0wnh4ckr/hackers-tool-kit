@@ -1,0 +1,3 @@
+BANNER:
+
+prints out a random banner out of the 6 banners available

@@ -1,0 +1,6 @@
+INFOSCAN:
+
+the infoscan command will try to get a bunch
+of information from a host like whois, dnslookup, cloudflare, etc
+if you type 'infoscan -o' in the framework you can
+run a specific scan if you only want to do one of them

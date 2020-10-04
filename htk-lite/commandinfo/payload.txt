@@ -1,0 +1,4 @@
+PAYLOAD:
+
+makes a payload with msfvenom these payloads are mostly 
+reverse_tcp

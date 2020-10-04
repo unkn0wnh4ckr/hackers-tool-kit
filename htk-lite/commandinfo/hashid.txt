@@ -1,0 +1,3 @@
+HASHID:
+
+find out what type of hash a hash is

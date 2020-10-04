@@ -1,0 +1,4 @@
+HELP:
+
+will print out all the commands you can use in the framework
+with a cool banner

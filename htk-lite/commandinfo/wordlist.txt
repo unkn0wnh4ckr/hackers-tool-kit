@@ -1,0 +1,3 @@
+WORDLIST:
+
+make wordlists with cupp for dictionary attacks

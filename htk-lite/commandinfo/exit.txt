@@ -1,0 +1,3 @@
+EXIT:
+
+exits htk-lite

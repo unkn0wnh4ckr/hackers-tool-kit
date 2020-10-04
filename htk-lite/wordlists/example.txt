@@ -1,0 +1,10 @@
+password
+123456
+123
+password123
+admin
+root
+toor
+username
+qwerty
+PASSWORD
