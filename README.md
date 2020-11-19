@@ -1,4 +1,14 @@
 # hackers-tool-kit
+
+
+
+#THIS TOOL IS OUTDATED GO CHECK OUT MY NEWER TOOL HTK-LITE
+
+
+
+
+
+
 Its a framework filled with alot of options and hacking tools you use directly in the script from brute forcing to payload making. Im still trying to think of what to add to the script. I now have another tool out called htkl-lite its hackers-tool-kit just not as big and messy. To see updates check on my instagram @tuf_unkn0wn or if there are any problems message me on instagram.
 
 ![](tools/screenshot1.png)
