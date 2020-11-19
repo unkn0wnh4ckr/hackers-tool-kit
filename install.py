@@ -6,6 +6,7 @@ THIS SCRIPT IS OUTDATED AND THE INSTALL IS BROKEN
 I HAVE A SCRIPT THAT IS BETTER AND NEWER CALLED HTK-LITE
 \033[0m
 """
+x = raw_input("")
 def install():
 	os.system("apt update")
 	os.system("apt install python-tk")
