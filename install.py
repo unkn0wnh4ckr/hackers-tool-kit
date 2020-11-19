@@ -1,4 +1,11 @@
 import os
+
+print """\033[93m
+
+THIS SCRIPT IS OUTDATED AND THE INSTALL IS BROKEN
+I HAVE A SCRIPT THAT IS BETTER AND NEWER CALLED HTK-LITE
+\033[0m
+"""
 def install():
 	os.system("apt update")
 	os.system("apt install python-tk")
