@@ -23,6 +23,14 @@
 
 #this is the loading screen \ the imports START#
 #----------------------------------------------#
+print """
+\033[93m
+THIS SCRIPT IS OUTDATED AND THE INSTALL IS BROKEN 
+I HAVE A NEW TOOL OUT CALLED HTK-LITE WHICH IS BETTER
+AND DOESNT HAVE ANY PROBLEMS FROM WHAT IVE SEEN
+\033[0m
+"""
+x = raw_input("")
 import os
 print "Starting hackers-tool-kit...  [ * ]-[0%]"
 import platform
